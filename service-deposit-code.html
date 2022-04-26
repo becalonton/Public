@@ -1,0 +1,624 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>VNPT EPAY</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/icons/fontawesome/css/all.css">
+    <link rel="stylesheet" href="assets/css/custom-grid.css">
+    <link rel="stylesheet" href="assets/css/base.css">
+    <link rel="stylesheet" href="assets/css/main.css">
+    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="assets/css/keyframe.css">
+    <link rel="stylesheet" href="assets/css/responsive.css">
+
+    <!-- owlcarousel -->
+    <link rel="stylesheet" href="assets/plugins/owlcarousel/dist/assets/owl.carousel.min.css">
+    <link rel="stylesheet" href="assets/plugins/owlcarousel/dist/assets/owl.carousel.css">
+    <link rel="stylesheet" href="assets/plugins/owlcarousel/dist/assets/owl.theme.default.min.css">
+
+    <!-- slick -->
+    <link rel="stylesheet" href="assets/plugins/slick-carousel/css/slick.min.css">
+
+</head>
+
+<body>
+    <div id="wrapper">
+
+<!-- Header -->
+<div class="header">
+    <!-- Header pc -->
+    <header class="header__pc">
+        <!-- Header logo -->
+        <a href="index.html" class="header__logo">
+            <picture>
+                <source class="image-contain" media="(max-width: 739px)" srcset="assets/images/header_mobile_logo_2.png">
+                <img class="image-contain" src="assets/images/header_logo_3.png" subsrc="assets/images/footer_logo.png" alt="">
+            </picture>
+        </a>
+        <!-- Header logo -->
+        <!-- Header navbar -->
+        <div class="header__navbar">
+            <!-- Navbar -->
+            <nav class="navbar">
+                <ul class="navbar__list">
+                    <li class="navbar__item">
+                        <a href="index.html" class="navbar__link">Trang chủ </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="javascript:void(0)" class="navbar__link navbar__link--menu">Về chúng tôi <i
+                                class="fas fa-chevron-down"></i></a>
+                        <div class="navbar__menu">
+                            <div class="menu">
+                                <ul class="menu__list">
+                                    <li class="menu__item">
+                                        <a href="about-us-introduction.html" class="menu__link">Giới thiệu</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="about-us-partner.html" class="menu__link">Khách hàng & đối
+                                            tác</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="javascript:void(0)" class="navbar__link navbar__link--menu">Dịch vụ <i
+                                class="fas fa-chevron-down"></i></a>
+                        <div class="navbar__menu navbar__menu--category">
+                            <div class="menu">
+                                <h3 class="navbar__link">Dịch vụ PG</h3>
+                                <ul class="menu__list">
+                                    <li class="menu__item">
+                                        <a href="service-megapay.html" class="menu__link">Cổng thanh toán trực
+                                            tuyến (MegaPay)</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="service-firmbanking.html" class="menu__link">Dịch vụ chuyển
+                                            tiền nhanh liên ngân hàng (Firm Banking)</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="service-deposit-code.html" class="menu__link">Dịch vụ mã nộp
+                                            tiền (Deposit code)</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="service-epaypos.html" class="menu__link">Dịch vụ thanh toán POS
+                                            di động (EPAYPOS)</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="menu">
+                                <h3 class="navbar__link">Dịch vụ thu / chi hộ
+                                </h3>
+                                <ul class="menu__list">
+                                    <li class="menu__item">
+                                        <a href="service-mc-md.html" class="menu__link">Dịch vụ thu hộ tiền
+                                            mặt</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="service-mc-md.html" class="menu__link">Dịch vụ chi hộ tiền
+                                            mặt</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="service-mc-md.html" class="menu__link">Dịch vụ thanh toán hóa
+                                            đơn</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="menu">
+                                <h3 class="navbar__link">Dịch vụ gia tăng
+                                </h3>
+                                <ul class="menu__list">
+                                    <li class="menu__item">
+                                        <a href="service-esan.html" class="menu__link">Dịch vụ Topup</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="service-esan.html" class="menu__link">Esan (B2C Topup)</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="service-shipantoan.html" class="menu__link">Dịch vụ Shipantoan</a>
+                                    </li>
+                                    <li class="menu__item">
+                                        <a href="service-document-collection.html" class="menu__link">Dịch vụ
+                                            Thu hồ sơ</a>
+                                    </li>
+                                </ul>
+                            </div>
+                            <div class="menu">
+                                <h3 class="navbar__link">Ví điện tử </h3>
+                                <ul class="menu__list">
+                                    <li class="menu__item">
+                                        <a href="service-ewallet.html" class="menu__link">Ví điện tử E-WALLET</a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="news.html" class="navbar__link">Tin tức </a>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="javascript:void(0)" class="navbar__link navbar__link--menu">Trợ giúp <i
+                            class="fas fa-chevron-down"></i></a>
+                        <div class="navbar__menu">
+                            <ul class="menu__list">
+                                <li class="menu__item">
+                                    <a href="contact.html" class="menu__link">Liên hệ</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="hiring.html" class="menu__link">Tuyển dụng</a>
+                                </li>
+                                <li class="menu__item">
+                                    <a href="helper.html" class="menu__link">Hỏi và Đáp</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </li>
+                    <li class="navbar__item">
+                        <a href="https://demo.megapay.vn" target="_blank" class="navbar__link">Demo</a>
+                    </li>
+                </ul>
+            </nav>
+            <!-- Navbar ends -->
+            <!-- Header form -->
+            <form class="header__form">
+                <input type="text" name="" id="" placeholder="Tìm kiếm tại đây">
+                <button type="submit"><i class="fas fa-search"></i></button>
+            </form>
+            <!-- Header form ends -->
+            <!-- Language -->
+            <div class="header__language d-flex justify-content-center align-items-center">
+                <input type="checkbox" class="language__checkbox hidden" name="" id="language-checkbox">
+                <label for="language-checkbox" class="language__current d-flex">
+                    <img src="assets/images/language_vietnam.png" class="language__img" alt="">
+                </label>
+                <ul class="language__list">
+                    <li class="language__item m-b-10">
+                        <a href="#" class="language__link"><img src="assets/images/language_english.png" class="language__img" alt=""></a>
+                    </li>
+                    <li class="nav-language__item">
+                        <a href="#" class="language__link"><img src="assets/images/language_korea.png" class="language__img" alt=""></a>
+                    </li>
+                </ul>
+            </div>
+            <!-- Language ends -->
+            <a href="javascript:void(0)" data-toggle="menu" class="header__toggle">
+                <i class="toggle__default fas fa-bars"></i>
+                <i class="toggle__close fas fa-times"></i>
+            </a>
+        </div>
+        <!-- Header navbar -->
+    </header>
+    <!-- Header pc ends -->
+</div>
+<!-- Header ends -->
+
+        <!-- Banner -->
+        <section class="banner">
+            <div class="deposit banner__content" style="background-image: linear-gradient(0deg, rgba(6, 10, 18, 0.62), rgba(6, 10, 18, 0.62)), url('assets/images/deposit\ code.png');">
+                <div class="banner__info">
+                    <div class="info info--white">
+                        <h2 class="info__title info__title--primary">
+                            Dịch vụ Deposit code
+                        </h2>
+                        <div class="info__content">
+                            <p class="info__summary">
+                                Dịch vụ Thanh toán bằng Mã nộp tiền (Deposit code) là dịch vụ thu hộ qua hệ thống Mã nộp tiền được VNPT EPAY mở tại các Ngân hàng nhằm đáp ứng nhu cầu quản lý các khoản phải thu của đối tác
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Banner ends -->
+
+        <!-- General info -->
+        <section class="deposit general">
+            <div class="general__content">
+                <div class="info">
+                    <h2 class="info__title info__title--primary">
+                        Giới thiệu chung
+                    </h2>
+                    <div class="info__content">
+                        <p class="info__description">
+                            Ra mắt vào Quý 3 năm 2018, Dịch vụ thu hộ bằng Mã nộp tiền (Deposit code) do VNPT EPAY cung cấp là dịch vụ cho phép khách hàng thanh toán hóa đơn và chi phí thông qua hệ thống Mã nộp tiền mà không cần có thẻ/tài khoản ngân hàng và doanh nghiệp sử dụng
+                            dịch vụ được báo có ngay lập tức sau khi khách hàng thực hiện thanh toán mà không cần phải kiểm tra với ngân hàng
+                        </p>
+                        <p class="info__description">
+                            Dịch vụ hỗ trợ đặc biệt hiệu quả đối với các doanh nghiệp có nhu cầu thu tiền hóa đơn/chi phí từ số lượng lớn khách hàng/đối tác như mô hình: Bảo hiểm, sàn chứng khoán, tài chính tiêu dùng, quản lý căn hộ, sàn Thương mại điện tử, đơn vị hành chính công
+                            bao gồm: điện, nước, trường học,…
+                        </p>
+                        <p class="info__description">
+                            Doanh nghiệp không chỉ được báo có ngay lập tức mà còn giảm bớt đáng kể nguồn lực kiểm soát khoản phải thu, tăng tốc độ cung cấp dịch vụ, hàng hóa cho khách hàng nhờ xử lý thanh toán nhanh chóng và chính xác
+                        </p>
+                    </div>
+                </div>
+                <div class="general__img">
+                    <img src="assets/images/service/deposit-code/general-info.png" alt="" class="image-contain">
+                </div>
+            </div>
+        </section>
+        <!-- General info ends -->
+
+        <!-- Deposit procedure -->
+        <section class="section deposit procedure">
+            <div class="info info--center">
+                <h2 class="info__title">
+                    Đặc điểm và quy trình
+                </h2>
+                <div class="info__content">
+                    <ul class="unorder__list unorder__list--horizontal">
+                        <li class="unorder__item">
+                            <p class="txt-weight-500 txt-justify">Kết nối API để tiếp nhận yêu cầu và trả kết quả tự động qua hệ thống</p>
+                        </li>
+                        <li class="unorder__item">
+                            <p class="txt-weight-500 txt-justify">Mã nộp tiền là Mã chuyên thu, không có chức năng rút tiền</p>
+                        </li>
+                    </ul>
+                    <ul class="order__list order__list--bg">
+                        <li class="order__item" style="--background-img: url('../images/service/deposit-code/step-1.png')">
+                            <p class="txt-center txt-title">
+                                Doanh nghiệp thông báo Mã nộp tiền cho Khách hàng/ Đối tác
+                            </p>
+                        </li>
+                        <li class="order__item" style="--background-img: url('../images/service/deposit-code/step-2.png')">
+                            <p class="txt-center txt-title">
+                                Khách hàng và đối tác thanh toán
+                            </p>
+                        </li>
+                        <li class="order__item" style="--background-img: url('../images/service/deposit-code/step-3.png')">
+                            <p class="txt-center txt-title">
+                                Ngân hàng ghi có tài khoản của EPAY
+                            </p>
+                        </li>
+                        <li class="order__item" style="--background-img: url('../images/service/deposit-code/step-4.png')">
+                            <p class="txt-center txt-title">
+                                EPAY thanh toán về tài khoản của doanh nghiệp
+                            </p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Deposit procedure ends -->
+
+        <!-- Deposit benefit -->
+        <section class="section deposit benefit">
+            <div class="container-80">
+                <div class="advantage__heading">
+                    <h3 class="advantage__title txt-weight-bold txt-center txt-white txt-upper">Lợi ích</h3>
+                    <h4 class="advantage__sub txt-weight-500 txt-center txt-upper txt-white">với đối tác & khách hàng</h4>
+                </div>
+                <ul class="advantage__list">
+                    <li class="advantage__item">
+                        <div class="advantage__info">
+                            <div class="advantage__img">
+                                <img src="assets/images/service/deposit-code/benefit-staff.png" alt="">
+                            </div>
+                            <p class="txt-white txt-weight-bold">Tối ưu nhân lực, tiết kiệm chi phí</p>
+                        </div>
+                    </li>
+                    <li class="advantage__item">
+                        <div class="advantage__info">
+                            <div class="advantage__img">
+                                <img src="assets/images/service/deposit-code/benefit-time.png" alt="">
+                            </div>
+                            <p class="txt-white txt-weight-bold">Thu hộ thời gian thực & quản lý thanh toán tự động</p>
+                        </div>
+                    </li>
+                    <li class="advantage__item">
+                        <div class="advantage__info">
+                            <div class="advantage__img">
+                                <img src="assets/images/service/deposit-code/benefit-money.png" alt="">
+                            </div>
+                            <p class="txt-white txt-weight-bold">Đơn giản hóa các khoản phải thu từ lượng lớn khách hàng nộp tiền</p>
+                        </div>
+                    </li>
+                    <li class="advantage__item">
+                        <div class="advantage__info">
+                            <div class="advantage__img">
+                                <img src="assets/images/service/deposit-code/benefit-market.png" alt="">
+                            </div>
+                            <p class="txt-white txt-weight-bold">Đa dạng hóa kênh phân phối và mở rộng tập khách hàng</p>
+                        </div>
+                    </li>
+                    <li class="advantage__item">
+                        <div class="advantage__info">
+                            <div class="advantage__img">
+                                <img src="assets/images/service/deposit-code/benefit-diverse.png" alt="">
+                            </div>
+                            <p class="txt-white txt-weight-bold">Nhiều kênh thanh toán khác nhau</p>
+                        </div>
+                    </li>
+                    <li class="advantage__item">
+                        <div class="advantage__info">
+                            <div class="advantage__img">
+                                <img src="assets/images/service/deposit-code/benefit-real-time.png" alt="">
+                            </div>
+                            <p class="txt-white txt-weight-bold">Thanh toán thời gian thực và tự động</p>
+                        </div>
+                    </li>
+                    <li class="advantage__item">
+                        <div class="advantage__info">
+                            <div class="advantage__img">
+                                <img src="assets/images/service/deposit-code/benefit-bank.png" alt="">
+                            </div>
+                            <p class="txt-white txt-weight-bold">Khách hàng không cần mở tài khoản ngân hàng</p>
+                        </div>
+                    </li>
+                    <li class="advantage__item">
+                        <div class="advantage__info">
+                            <div class="advantage__img">
+                                <img src="assets/images/service/deposit-code/benefit-simple.png" alt="">
+                            </div>
+                            <p class="txt-white txt-weight-bold">Quy trình thực hiện đơn giản</p>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </section>
+        <!-- Deposit benefit ends -->
+
+        <!-- Deposit advantage -->
+        <section class="deposit advantage">
+            <div class="info info--center">
+                <h2 class="info__title ">
+                    Ưu điểm
+                </h2>
+                <div class="info__content">
+                    <ul class="order__list order__list--img">
+                        <li class="order__item">
+                            <div class="order__wrap">
+                                <div class="order__img">
+                                    <img src="assets/images/service/deposit-code/advantage-1.png" alt="">
+                                </div>
+                            </div>
+                            <p class="txt-weight-500 txt-title txt-center">Quản lý chính xác thông tin người nộp tiền</p>
+                        </li>
+                        <li class="order__item">
+                            <div class="order__wrap">
+                                <div class="order__img">
+                                    <img src="assets/images/service/deposit-code/advantage-2.png" alt="">
+                                </div>
+                            </div>
+                            <p class="txt-weight-500 txt-title txt-center">Có thể cấu hình thời gian và số tiền cần nộp</p>
+                        </li>
+                        <li class="order__item">
+                            <div class="order__wrap">
+                                <div class="order__img">
+                                    <img src="assets/images/service/deposit-code/advantage-3.png" alt="">
+                                </div>
+                            </div>
+                            <p class="txt-weight-500 txt-title txt-center">Kiểm tra các khoản đã nhận theo thời gian thực</p>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+        <!-- Deposit advantage ends -->
+
+        <!-- Collection way -->
+        <section class="section deposit collection">
+            <div class="info info--white  info--center">
+                <h2 class="info__title">Các kênh thu</h2>
+                <div class="info__content">
+                    <div class="container-80">
+                        <ul class="collection__list">
+                            <li class="collection__item">
+                                <div class="collection__img">
+                                    <img src="assets/images/service/deposit-code/collection-1.png" alt="">
+                                </div>
+                                <h3 class="collection__title txt-weight-500 txt-title txt-center">CHI NHÁNH PHÒNG GIAO DỊCH
+                                </h3>
+                                <p class="collection__note txt-weight-500 txt-title txt-center">Hơn <span class="txt-primary">10.000 điểm</span> </p>
+                            </li>
+                            <li class="collection__item">
+                                <div class="collection__img">
+                                    <img src="assets/images/service/deposit-code/collection-2.png" alt="">
+                                </div>
+                                <h3 class="collection__title txt-weight-500 txt-title txt-center">MOBILE BANKING
+                                </h3>
+                            </li>
+                            <li class="collection__item">
+                                <div class="collection__img">
+                                    <img src="assets/images/service/deposit-code/collection-3.png" alt="">
+                                </div>
+                                <h3 class="collection__title txt-weight-500 txt-title txt-center">INTERNET BANKING
+                                </h3>
+                            </li>
+                            <li class="collection__item">
+                                <div class="collection__img">
+                                    <img src="assets/images/service/deposit-code/collection-4.png" alt="">
+                                </div>
+                                <h3 class="collection__title txt-weight-500 txt-title txt-center">MÁY ATM
+                                </h3>
+                                <p class="collection__note txt-weight-500 txt-title txt-center">Hơn <span class="txt-primary">17.000 máy</span></p>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Collection way ends -->
+
+        <!-- Addition -->
+        <section class="section deposit addition">
+            <div class="info">
+                <h2 class="info__title">Đăng ký sử dụng dịch vụ</h2>
+                <div class="info__content">
+                    <div class="addition__content">
+                        <div class="addition__info">
+                            <ul class="order__list order__list--bar">
+                                <li class="order__item">
+                                    <p class="txt-title txt-weight-500 txt-upper">HỢP ĐỒNG THU HỘ</p>
+                                </li>
+                                <li class="order__item">
+                                    <p class="txt-title txt-weight-500 txt-upper">TÀI KHOẢN DOANH NGHIỆP</p>
+                                </li>
+                                <li class="order__item">
+                                    <p class="txt-title txt-weight-500 txt-upper">BẢN SAO ĐĂNG KÝ KINH DOANH <span class="txt-italic txt-weight-400">(CÓ CÔNG CHỨNG)</span> </p>
+                                </li>
+                                <li class="order__item">
+                                    <p class="txt-title txt-weight-500 txt-upper">BẢN SAO CMT/ HỘ CHIẾU CỦA NGƯỜI KÝ HỢP ĐỒNG</p>
+                                </li>
+                            </ul>
+                        </div>
+                        <img src="assets/images/service/deposit-code/background-6.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </section>
+        <!-- Addition ends -->
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="container-90">
+                <!-- Footer logo -->
+                <a href="#" class="footer__logo"><img class="image-contain" src="assets/images/footer_logo.png"></a>
+                <h3 class="footer__logotittle">CÔNG TY CỔ PHẦN THANH TOÁN ĐIỆN TỬ VNPT EPAY (VNPT EPAY)</h3>
+                
+                <!-- Footer logo ends -->
+                <!-- Footer content -->
+                <div class="footer__content">
+                    <div class="custom-grid">
+                        <!-- Footer row -->
+                        <ul class="footer__list row">
+
+                            <!-- Footer column -->
+                            <li class="footer__item col l-3 m-4 c-12">
+                                <div class="footer__info">
+                                    <div class="footer__heading">
+                                        <h3 class="footer__title txt-upper">Trụ sở hà nội</h3>
+                                    </div>
+                                    <p class="txt-justify">Tầng 14, tòa nhà Handico, khu đô thị mới Mễ Trì Hạ, đường Phạm Hùng, quận Nam Từ Liêm, Hà Nội</p>
+                                    <ul class="footer__contact">
+                                        <li>
+                                            <p>Điện thoại:</p>
+                                            <p class="txt-title txt-weight-bold">+84 (24) 3933 5133</p>
+                                        </li>
+                                        <li>
+                                            <p>FAX:</p>
+                                            <p class="txt-title txt-weight-bold">+84 (24) 3933 5166</p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- Footer column ends -->
+
+                            <!-- Footer column -->
+                            <li class="footer__content-item col l-3 m-4 c-12">
+                                <div class="footer__info">
+                                    <div class="footer__heading">
+                                        <h3 class="footer__title txt-upper">Chi nhánh HCM</h3>
+                                    </div>
+                                    <p class="txt-justify">Phòng 702 - 111D Lý Chính Thắng - Phường 7 - Quận 3 - Hồ Chí Minh
+                                    </p>
+                                    <ul class="footer__contact">
+                                        <li>
+                                            <p>Điện thoại:</p>
+                                            <p class="txt-title txt-weight-bold">+84 (24) 3933 5133 </p>
+                                        </li>
+                                        <li>
+                                            <p>FAX:</p>
+                                            <p class="txt-title txt-weight-bold">+84 (24) 3933 5133 </p>
+                                        </li>
+                                    </ul>
+                                </div>
+                            </li>
+                            <!-- Footer column ends -->
+
+                            <!-- Footer column -->
+                            <li class="footer__content-item col l-3 m-4 c-12">
+                                <div class="footer__info">
+                                    <div class="footer__heading">
+                                        <h3 class="footer__title txt-upper">Hotline</h3>
+                                        <ul class="social__list">
+                                            <li class="social__item">
+                                                <a href="#" class="social__link">19006470</a>
+                                            </li>
+                                        </ul>
+                                    </div>
+                                </div>
+                            </li>
+                            <!-- Footer column ends -->
+
+                            <!-- Footer column -->
+                            <li class="footer__content-item col l-3 m-12 c-12">
+                                <div class="footer__info">
+                                    <div class="footer__heading">
+                                        <h3 class="footer__title txt-upper txt-title weight-bold">Liên hệ</h3>
+                                        <!-- Footer social -->
+                                        <ul class="social__list">
+                                            <li class="social__item">
+                                                <a href="#" class="social__link"><i class="fab fa-facebook"></i></a>
+                                            </li>
+                                            <li class="social__item">
+                                                <a href="#" class="social__link"><i class="fab fa-instagram"></i></a>
+                                            </li>
+                                            <li class="social__item">
+                                                <a href="#" class="social__link"><i class="fab fa-google"></i></a>
+                                            </li>
+                                        </ul>
+                                        <!-- Footer social ends-->
+                                    </div>
+
+                                    <!-- Footer form -->
+                                    <form class="footer__form">
+                                        <input type="email" name="" id="" placeholder="Email">
+                                        <button type="submit"><i class="fas fa-long-arrow-alt-right"></i></button>
+                                    </form>
+                                    <!-- Footer form ends -->
+
+                                    <!-- Footer service -->
+                                    <div class="d-flex justify-content-between align-items-end">
+                                        <a href="#" class="footer__link">
+                                            <img class="image-contain" src="assets/images/service_logo_1.png" alt="">
+                                        </a>
+                                        <a href="#" class="footer__link">
+                                            <img class="image-contain" src="assets/images/service_logo_2.png" alt="">
+                                        </a>
+                                        <a href="#" class="footer__link">
+                                            <img class="image-contain" src="assets/images/service_logo_3.png" alt="">
+                                        </a>
+                                    </div>
+                                    <!-- Footer service ends -->
+                                </div>
+                            </li>
+                            <!-- Footer column ends -->
+                        </ul>
+                        <!-- Footer list ends -->
+                    </div>
+                </div>
+                <!-- Footer content ends -->
+            </div>
+            <!-- Footer copyright -->
+            <div class="footer__copyright d-flex justify-content-between align-items-center">
+                <p>Giấy phép hoạt động cung ứng dịch vụ trung gian thanh toán số <span class="txt-weight-bold">21/GP-NHNN</span> do Ngân hàng nhà nước Việt Nam cấp ngày 22/01/2016.
+                </p>
+                <div class="certificate">
+                    <img src="assets/images/certificate_1.png" alt="">
+                    <img src="assets/images/certificate_2.png" alt="">
+                    <img src="assets/images/certificate_3.png" alt="">
+                </div>
+            </div>
+            <!-- Footer copyright -->
+        </footer>
+        <!-- Footer ends -->
+    </div>
+
+    <script src="assets/js/jquery.min.js"></script>
+
+    <!-- Owl carousel -->
+    <script src="assets/plugins/owlcarousel/dist/owl.carousel.min.js"></script>
+
+    <!-- Slick -->
+    <script src="assets/plugins/slick-carousel/js/slick.min.js"></script>
+
+
+    <script src="assets/js/frontend.js"></script>
+</body>
+
+</html>

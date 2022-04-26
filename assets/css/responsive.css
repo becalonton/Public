@@ -1,0 +1,4071 @@
+/**
+    Các kích thước resposive khả thi này
+    Tv : 1900px <= width -> đây là kích thước mặc định của thiết kế 1920px x 1080px
+    Desktop: 1440px <= width < 1900px  
+    Laptop: 1024px <= width < 1440px  
+    Table: 740px <= width < 1024px  
+    Mobile: width < 740px f
+*/
+
+
+/* Desktop: 1440px <= width <= 1900px */
+
+@media screen and (min-width: 1440px) and (max-width:1900px) {
+    .section {
+        margin-bottom: 100px;
+    }
+    .container-1210px {
+        max-width: 1024px;
+    }
+    #return {
+        width: 40px;
+        height: 40px;
+        font-size: 1.6rem;
+        @media screen {}
+    }
+    /* ====================Text==================== */
+    .txt-12,
+    .news__origin {
+        font-size: 1.0rem;
+        line-height: 1.4rem;
+    }
+    .txt-14,
+    .language__icon,
+    .pagination__label,
+    .pagination__input,
+    .pagination__submit,
+    .achievement__description {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+    .txt-16,
+    .navbar__link,
+    .menu__title,
+    .menu__link,
+    .navbar__menu--category .menu__link,
+    .header__form input,
+    .header__form button,
+    .info__description,
+    .service__link,
+    .megapay .feature__summary,
+    .define__description,
+    .document.feature .feature__item,
+    .mc .advantage__item p,
+    .news__address,
+    .news__summary,
+    .news__date,
+    .news__more,
+    .blog p,
+    .blog__more,
+    .pagination__link,
+    .goal__heading,
+    .goal__description,
+    .timeline__summary,
+    .order__list p,
+    .order__list--square p,
+    .order__list--circle .order__info,
+    .unorder__item p,
+    .collapse__content p,
+    .form__label,
+    .form__control,
+    .form__button,
+    .custom-button,
+    .contact__info p,
+    .hiring__list p,
+    .footer__info p,
+    .footer__form input,
+    .footer__form button,
+    .footer__copyright p {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+    .txt-18,
+    .service__description,
+    .service__outlink,
+    .deposit .advantage__info p {
+        font-size: 1.6rem;
+        line-height: 2.0rem;
+    }
+    .txt-20,
+    .info__more,
+    .news__title,
+    .achievement--box .achievement__description {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+    .txt-24,
+    .info__summary,
+    .service__title,
+    .megapay .feature__name,
+    .collection__title,
+    .collection__note,
+    .addition__title,
+    .define__title,
+    .define__addition,
+    .firmbanking .owl-carousel .owl-item p,
+    .support__summary,
+    .news__list--vertical .news__title,
+    .news__sub-title,
+    .news__month,
+    .share__label,
+    .share__item,
+    .goal__title,
+    .timeline__goal,
+    .tab__link,
+    .order__list--classic .order__item::before,
+    .order__list--box p,
+    .order__list--square h3,
+    .order__list--bg p,
+    .order__list--img p,
+    .order__list--bar .order__item p,
+    .order__list--parallel p,
+    .order__list--parallel .order__info,
+    .unorder__item::before,
+    .unorder__list--horizontal .unorder__item p,
+    .unorder__list--circle .unorder__item p,
+    .unorder__list--img .unorder__item p,
+    .unorder__list--box .unorder__item p,
+    .collapse__toggle,
+    .contact__info h3,
+    .hiring__title,
+    .footer__title,
+    .social__link {
+        font-size: 2.0rem;
+        line-height: 2.4rem;
+    }
+    .txt-25,
+    .blog blockquote {
+        font-size: 2.1rem;
+        line-height: 2.5rem;
+    }
+    .txt-30,
+    .deposit .advantage__sub {
+        font-size: 2.4rem;
+        line-height: 2.9rem;
+    }
+    .txt-36,
+    .megapay .feature__sub-title,
+    .news__heading,
+    .news__title.news__title--primary,
+    .achievement__record,
+    .achievement--box .achievement__number,
+    .order__item:before,
+    .order__list--dot .order__title,
+    .order__list--parallel .order__info::before,
+    .unorder__title,
+    .flex__title,
+    .contact__title {
+        font-size: 2.8rem;
+        line-height: 3.6rem;
+    }
+    .txt-40,
+    .info__title {
+        font-size: 3.2rem;
+        line-height: 3.8rem;
+    }
+    .txt-50,
+    .deposit .advantage__title,
+    .define__heading,
+    .order__list--dot .order__item::before {
+        font-size: 4.0rem;
+        line-height: 4.6rem;
+    }
+    .txt-55,
+    .goal__vision p {
+        font-size: 4.8rem;
+        line-height: 5.6rem;
+    }
+    .txt-60,
+    .info__title.info__title--quote {
+        font-size: 4.8rem;
+        line-height: 7.5rem;
+    }
+    .txt-64,
+    .achievement__number {
+        font-size: 5.0rem;
+        line-height: 5.9rem;
+    }
+    .txt-70,
+    .order__list--bg .order__item::after {
+        font-size: 5.6rem;
+        line-height: 6.8rem;
+    }
+    .txt-78,
+    .megapay .feature__title,
+    .news__day,
+    .timeline__year,
+    .question__heading {
+        font-size: 6rem;
+        line-height: 7rem;
+    }
+    .txt-80,
+    .order__list--square .order__item::before {
+        font-size: 3.0rem;
+        line-height: 3.4rem;
+    }
+    .txt-200,
+    .order__list--img .order__item::before {
+        font-size: 20rem;
+        line-height: 20rem;
+    }
+    /* ====================Text ends==================== */
+    /* =========================Header========================== */
+    .header {}
+    .header__pc {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .header__logo {
+        max-width: 180px;
+    }
+    /* ===========================NavBar============================== */
+    .navbar__item+.navbar__item {
+        margin-left: 24px;
+    }
+    .navbar__link {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
+    .navbar__menu {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    .navbar__menu--category {
+        width: 572px;
+        padding: 14px 20px;
+    }
+    .navbar__menu--category .menu {
+        padding-top: 22px;
+    }
+    .navbar__menu--category .menu__item {
+        margin-top: 4px;
+    }
+    .menu__title {
+        padding-bottom: 6px;
+    }
+    .menu__list {
+        width: 180px;
+    }
+    .menu__link {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 1.6rem;
+    }
+    .navbar__menu .menu__link {
+        font-size: 1.4rem;
+        line-height: 2.0rem;
+    }
+    /* ===========================NavBar ends============================== */
+    /* ==============================Header form===================== */
+    .header__form {
+        margin-left: 20px;
+    }
+    .header__form input {
+        width: 180px;
+        padding: 6px 8px 6px 34px;
+        font-size: 1.4rem;
+    }
+    .header__form button {
+        height: 30px;
+        padding: 6px 8px;
+        font-size: 1.4rem;
+    }
+    /* ==============================Header form ends===================== */
+    /* ==============================Header language===================== */
+    .header__language {
+        margin-left: 20px;
+    }
+    /* ==============================Header language ends===================== */
+    /* =========================Header ends========================== */
+    /* =========================Banner========================= */
+    .banner.owl-carousel .owl-nav .owl-prev,
+    .banner.owl-carousel .owl-nav .owl-next {
+        min-width: 44px;
+        min-height: 44px;
+        font-size: 2.0rem;
+    }
+    /* =========================Banner ends========================= */
+    /* =========================Info============================ */
+    .info+.info {
+        margin-top: 70px;
+    }
+    .info.service {
+        max-width: 410px;
+    }
+    .info__title {
+        padding-bottom: 18px;
+    }
+    .info__title::after {
+        --custom-width: 80px;
+        border-bottom-width: 8px;
+    }
+    .info__content {
+        margin-top: 20px;
+    }
+    .info__more {
+        width: 120px;
+        margin-top: 20px;
+        border-radius: 30px;
+        -webkit-border-radius: 30px;
+        -moz-border-radius: 30px;
+        padding: 8px 12px;
+    }
+    .info__more.info__more--borderless:before {
+        width: 36px;
+        margin-right: 8px;
+        margin-bottom: 4px;
+    }
+    /* =========================Info ends============================ */
+    /* =========================Intro================================= */
+    .intro__content {}
+    .intro__content--right {
+        padding-left: 30px;
+    }
+    .intro__content--left {
+        padding-right: 30px;
+    }
+    .intro__slider.owl-carousel .owl-nav .owl-prev,
+    .intro__slider.owl-carousel .owl-nav .owl-next {
+        width: 80px;
+        height: 80px;
+        font-size: 2.4rem;
+    }
+    .info__description {
+        margin-bottom: 20px;
+    }
+    /* =========================Intro ends================================= */
+    /* =========================Service========================= */
+    .section.service {
+        padding-top: 70px;
+        padding-bottom: 100px;
+    }
+    .method {
+        width: 600px;
+        height: 600px;
+    }
+    .method__img {
+        width: 80px;
+        height: 80px;
+    }
+    .service__wrap+.service__wrap {}
+    .service__list {}
+    .service__item {
+        margin-bottom: 10px;
+    }
+    .service__img {
+        height: 180px;
+    }
+    .service__link {
+        min-height: 58px;
+    }
+    .service__title {
+        margin-top: 10px;
+        margin-bottom: 20px
+    }
+    .service__content {
+        margin-top: 18px;
+    }
+    .service__description {
+        font-size: 1.5rem;
+        line-height: 2.0rem;
+    }
+    .service__outlink {
+        margin-top: 8px;
+    }
+    /* =========================Service ends========================= */
+    /* =========================Megapay service========================= */
+    .megapay.feature {
+        min-height: 800px;
+    }
+    .megapay .feature__title {}
+    .megapay .feature__sub-title {
+        margin-top: 6px;
+    }
+    .megapay .feature__title:before,
+    .megapay .feature__title:after {
+        width: 60px;
+        height: 60px;
+    }
+    .megapay .feature__list--left {
+        padding-left: 40px;
+    }
+    .megapay .feature__list--right {
+        padding-right: 40px;
+    }
+    .megapay .feature__list--center {
+        max-width: 455px;
+    }
+    .megapay .feature__item {
+        min-height: 140px;
+        margin-top: 10px;
+    }
+    .megapay .feature__item:first-child {
+        margin-top: 40px;
+    }
+    .megapay .feature__icon {
+        min-width: 62px;
+        height: 62px;
+    }
+    .megapay .feature__icon--flag {
+        border-radius: 0 0 12px 12px;
+        -webkit-border-radius: 0 0 12px 12px;
+        -moz-border-radius: 0 0 12px 12px;
+    }
+    .megapay .feature__info {
+        margin-left: 18px;
+    }
+    .megapay .feature__name {
+        margin-bottom: 12px;
+    }
+    .megapay .feature__summary {}
+    .megapay.advantage--with-bg {
+        padding-top: 6%;
+        padding-bottom: 4%;
+    }
+    .megapay__info {
+        max-width: 480px;
+    }
+    /* =========================Megapay service ends========================= */
+    /* =========================Deposit code========================= */
+    .general__content p:nth-child(1) {
+        max-width: 380px;
+    }
+    .general__content p:nth-child(2) {
+        max-width: 322px;
+    }
+    .general__content p:nth-child(3) {
+        max-width: 324px;
+    }
+    .general__img {
+        margin-top: 60px;
+    }
+    .general__img::before {
+        width: 190px;
+        height: 190px;
+    }
+    .deposit.procedure {
+        padding: 70px 5%;
+    }
+    .deposit.benefit {
+        background-size: 380px 380px;
+    }
+    .deposit.advantage {
+        height: 850px;
+    }
+    .deposit .advantage__title {}
+    .deposit .advantage__sub {
+        margin-top: 12px;
+    }
+    .deposit .advantage__item {
+        margin-bottom: 58px;
+    }
+    .deposit .advantage__item:first-child {
+        padding-left: 4%;
+    }
+    .deposit .advantage__item:first-child+.advantage__item {
+        padding-right: 4%;
+    }
+    .deposit .advantage__item:nth-last-child(2) {
+        padding-left: 4%;
+    }
+    .deposit .advantage__item:last-child {
+        padding-right: 4%;
+    }
+    .deposit .advantage__info {
+        width: 400px;
+        border-radius: 67px;
+        -webkit-border-radius: 67px;
+        -moz-border-radius: 67px;
+    }
+    .deposit .advantage__img {
+        min-width: 60px;
+        height: 60px;
+    }
+    .deposit .advantage__info p {
+        padding: 0 24px;
+    }
+    .deposit.addition {
+        padding-left: 200px;
+        padding-right: 150px;
+    }
+    .addition__content {
+        margin-top: 47px;
+    }
+    .collection__list {
+        margin-top: 180px;
+    }
+    .collection__item {
+        width: 290px;
+        padding: 0 30px 40px 30px;
+    }
+    .collection__img {
+        min-width: 200px;
+        min-height: 250px;
+    }
+    .collection__img::before {
+        width: 250px;
+        height: 280px;
+        border-top-left-radius: 30px;
+        -webkit-border-top-left-radius: 30px;
+        -moz-border-top-left-radius: 30px;
+        border-top-right-radius: 30px;
+        -webkit-border-top-right-radius: 30px;
+        -moz-border-top-right-radius: 30px;
+    }
+    .collection__title {
+        margin-top: 23px;
+    }
+    .collection__note {}
+    .collection__title+.collection__note {
+        margin-top: 22px;
+    }
+    /* =========================Deposit code ends========================= */
+    /* =========================Firmbanking========================= */
+    .general__content.general__content--vertical p {
+        margin-top: 36px;
+        max-width: 100%;
+    }
+    .general__content--vertical .info__content {
+        max-width: 400px;
+    }
+    .firmbanking.definition {
+        padding-top: 150px;
+    }
+    .define__item:nth-child(1) {
+        left: 21.5%;
+    }
+    .define__item:nth-child(2) {
+        left: 41.8%;
+    }
+    .define__item:nth-child(3) {
+        left: 62.5%;
+    }
+    .define__heading {}
+    .define__item {
+        min-width: 240px;
+    }
+    .define__title {
+        margin-top: 24px;
+        margin-bottom: 8px;
+    }
+    .define__description {
+        max-width: 170px;
+    }
+    .firmbanking.field {
+        background-size: 380px 380px;
+    }
+    .firmbanking .advantage {
+        height: 500px;
+    }
+    .firmbanking .owl-carousel .owl-nav button {
+        min-width: 60px;
+        height: 60px;
+        font-size: 2.4rem !important;
+    }
+    .firmbanking .owl-carousel .owl-item p {
+        max-width: 300px;
+        height: 190px;
+        padding: 32px 30px 0 30px;
+    }
+    .firmbanking.addition {
+        margin-bottom: 140px;
+    }
+    .addition--b-r::before {
+        min-width: 290px;
+        height: 290px;
+    }
+    /* =========================Firmbanking ends========================= */
+    /* =========================Epaypos========================= */
+    .epaypos.advantage {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .epaypos__wrap {
+        padding: 0 200px;
+    }
+    .support__info {
+        height: 700px;
+        padding-left: 200px;
+        padding-right: 100px;
+    }
+    .support__info .info {
+        max-width: 480px;
+    }
+    .support__summary {
+        padding-top: 50px;
+    }
+    .support__summary+.support__summary {
+        padding-top: 20px;
+        padding-bottom: 8px;
+    }
+    .addition__info {
+        max-width: 480px;
+    }
+    .addition__title {
+        margin-bottom: 40px;
+    }
+    .addition--t-r::before {
+        min-width: 300px;
+        height: 290px;
+    }
+    /* =========================Epaypos ends========================= */
+    /* =========================Document collection========================= */
+    .document.feature {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .document.feature .feature__list {
+        height: 460px;
+    }
+    .document.feature .feature__item {}
+    .document.procedure {
+        padding-top: 70px;
+        padding-bottom: 70px;
+    }
+    .document .partner__list {
+        margin-top: 30px;
+    }
+    .document .partner__list img {
+        max-height: 100px;
+        max-width: 180px;
+    }
+    .document .partner__list img+img {
+        margin-left: 100px;
+    }
+    /* =========================Document collection ends========================= */
+    /* =========================MC, MD========================= */
+    .mc .advantage__item {
+        max-width: 400px;
+        height: 240px;
+    }
+    .mc .advantage__item p {
+        max-width: 160px;
+    }
+    .md__info {
+        max-width: 400px;
+    }
+    /* =========================MC, MD ends========================= */
+    /* =========================Box========================= */
+    .box {
+        width: 200px;
+        height: 80px;
+    }
+    /* =========================Box ends========================= */
+    /* =========================Flex========================= */
+    .flex__title {}
+    /* =========================Flex ends========================= */
+    /* =========================Unorder list========================= */
+    .unorder__list {
+        padding: 20px;
+    }
+    .unorder__item+.unorder__item {
+        margin-top: 14px;
+    }
+    .unorder__list--horizontal .unorder__item {
+        max-width: 384px;
+    }
+    .unorder__item::before {}
+    .unorder__item p {
+        max-width: 300px;
+    }
+    .unorder__list--horizontal .unorder__item p {}
+    .unorder__list--circle .unorder__item:first-child {
+        margin-top: 20px;
+    }
+    .unorder__list--circle .unorder__item+.unorder__item {
+        margin-top: 24px;
+    }
+    .unorder__list--circle .unorder__item p {
+        max-width: 380px;
+    }
+    .unorder__title {
+        margin-top: 58px;
+        margin-bottom: 8px;
+    }
+    .unorder__list--img .unorder__item {
+        padding: 28px 20px;
+    }
+    .unorder__list--img .unorder__wrap {
+        min-width: 170px;
+        height: 170px;
+    }
+    .unorder__list--img .unorder__item p {
+        max-width: 130px;
+    }
+    .unorder__list--box .unorder__item {
+        min-width: 250px;
+        height: 200px;
+    }
+    .unorder__list--box .unorder__item+.unorder__item {
+        margin-top: 0;
+    }
+    .unorder__list--box .unorder__item p {
+        max-width: 180px;
+        margin-top: 18px;
+    }
+    /* =========================Unorder list ends========================= */
+    /* =========================Order list========================= */
+    .order__item {
+        width: 760px;
+        margin-top: 10px;
+        padding-bottom: 20px;
+    }
+    .order__item:before {
+        margin-right: 18px;
+    }
+    .order__list--bg .order__item::after {
+        width: 130px;
+        margin-bottom: 16px;
+    }
+    .order__list--bg p {
+        max-width: 300px;
+    }
+    .order__list--bar .order__item {
+        width: 390px;
+        margin-bottom: 26px;
+    }
+    .order__list--bar .order__item::before {
+        padding: 8px;
+        margin-right: 16px;
+    }
+    .order__list--bar .order__item p {}
+    .order__list--dot .order__item {
+        max-width: 440px;
+        flex: 1 1 440px;
+        -webkit-flex: 1 1 440px;
+        -moz-flex: 1 1 440px;
+        -ms-flex: 1 1 440px;
+    }
+    .order__list--dot .order__item::before {
+        margin-right: 14px;
+    }
+    .order__list--dot .order__title {
+        margin-bottom: 6px;
+    }
+    .order__list p {}
+    .order__list--classic .order__item::before {
+        padding: 16px;
+        margin-right: 14px;
+    }
+    .order__list--classic p {
+        max-width: 320px;
+    }
+    .order__list--box .order__item {
+        max-width: 510px;
+        height: 218px;
+        padding: 0 26px;
+    }
+    .order__list--box .order__item::before {
+        padding: 14px 20px;
+        border-radius: 0 0 8px 8px;
+        -webkit-border-radius: 0 0 8px 8px;
+        -moz-border-radius: 0 0 8px 8px;
+        margin-bottom: 18px;
+    }
+    .order__list--box p {}
+    .order__list--square {
+        max-width: 1140px;
+    }
+    .order__list--square .order__item {
+        max-width: 490px;
+    }
+    .order__list--square .order__item::before {
+        padding: 20px 25px;
+        border-radius: 16px;
+        -webkit-border-radius: 16px;
+        -moz-border-radius: 16px;
+    }
+    .order__list--square h3 {}
+    .order__list--square p {
+        margin-top: 14px;
+    }
+    .order__list--parallel {
+        height: 500px;
+    }
+    .order__list--parallel .order__info::before {}
+    .order__list--parallel .order__info {
+        width: 300px;
+        height: 200px;
+        padding: 60px 20px 24px 30px;
+    }
+    .order__list--parallel p {}
+    .order__list--img .order__item {
+        flex-basis: 300px;
+        -webkit-flex-basis: 300px;
+        -moz-flex-basis: 300px;
+        max-width: 300px;
+    }
+    .order__list--img .order__item::before {
+        font-size: 14rem;
+        line-height: 14rem;
+    }
+    .order__list--img p {
+        max-width: 210px;
+    }
+    .order__list--img .order__img {
+        max-width: 180px;
+        height: 180px;
+        border-width: 14px;
+    }
+    .order__list--circle .order__item {
+        width: 270px;
+    }
+    .order__list--circle .order__item:nth-child(1)::before {
+        width: 206px;
+        height: 230px;
+        font-size: 14rem;
+        line-height: 206px;
+    }
+    .order__list--circle .order__item:nth-child(2)::before {
+        width: 164px;
+        height: 186px;
+        font-size: 10rem;
+        line-height: 164px;
+    }
+    .order__list--circle .order__item:nth-child(3)::before {
+        width: 125px;
+        height: 140px;
+        font-size: 8rem;
+        line-height: 125px;
+    }
+    .order__list--circle .order__item:nth-child(4)::before {
+        width: 86px;
+        height: 96px;
+        font-size: 6rem;
+        line-height: 86px;
+    }
+    .order__list--circle .order__item:nth-child(5)::before {
+        width: 62px;
+        height: 68px;
+        font-size: 4rem;
+        line-height: 62px;
+    }
+    .order__list--circle .order__item:nth-child(6)::before {
+        width: 48px;
+        height: 54px;
+        font-size: 2.4rem;
+        line-height: 48px;
+    }
+    .order__list--circle .order__item:nth-child(7)::before {
+        width: 30px;
+        height: 34px;
+        font-size: 1.6rem;
+        line-height: 30px;
+    }
+    .mc.procedure .order__list--circle .order__item:nth-child(1) .order__info {
+        width: 144px;
+    }
+    .mc.procedure .order__list--circle .order__item:nth-child(2) .order__info {
+        width: 174px;
+    }
+    .mc.procedure .order__list--circle .order__item:nth-child(3) .order__info {
+        width: 134px;
+    }
+    .mc.procedure .order__list--circle .order__item:nth-child(4) .order__info {
+        width: 180px;
+    }
+    .mc.procedure .order__list--circle .order__item:nth-child(5) .order__info {
+        width: 176px;
+    }
+    .mc.procedure .order__list--circle .order__item:nth-child(6) .order__info {
+        width: 280px;
+    }
+    .mc.procedure .order__list--circle .order__item:nth-child(7) .order__info {
+        width: 136px;
+    }
+    .md.procedure .order__list--circle .order__item:nth-child(1) .order__info {
+        width: 144px;
+    }
+    .md.procedure .order__list--circle .order__item:nth-child(2) .order__info {
+        width: 174px;
+    }
+    .md.procedure .order__list--circle .order__item:nth-child(3) .order__info {
+        width: 186px;
+    }
+    .md.procedure .order__list--circle .order__item:nth-child(4) .order__info {
+        width: 170px;
+    }
+    .md.procedure .order__list--circle .order__item:nth-child(5) .order__info {
+        width: 168px;
+    }
+    .md.procedure .order__list--circle .order__item:nth-child(6) .order__info {
+        width: 162px;
+    }
+    /* =========================Order list ends========================= */
+    /* =========================News========================= */
+    .news__list {
+        margin-bottom: 34px;
+    }
+    .news__list--vertical .news__content::before {
+        width: 20px;
+        height: 20px;
+    }
+    .news__content {}
+    .news__list--vertical .news__content::before {
+        width: 20px;
+        height: 20px;
+    }
+    .news__address {
+        margin-top: 20px;
+        margin-bottom: 12px;
+        padding: 0 16px;
+    }
+    .news__title {
+        margin-top: 16px;
+        padding: 0 20px;
+        min-height: 54px;
+    }
+    .news__info {
+        padding: 0 20px;
+    }
+    .news__heading {}
+    .news__sub-title {
+        margin-bottom: 8px;
+    }
+    .news__summary {}
+    .news__sub-title+.news__summary {
+        max-width: 400px;
+    }
+    .news__date {}
+    .news__date:before {
+        width: 60px;
+    }
+    .news__more {
+        padding: 18px;
+    }
+    /* =========================News ends========================= */
+    /* =========================Pagination========================= */
+    .pagination__item:first-child+.pagination__item {
+        margin-left: 12px;
+    }
+    .pagination__item+.pagination__item:last-child {
+        margin-left: 12px;
+    }
+    .pagination__link {
+        width: 22px;
+        height: 22px;
+    }
+    .pagination__form {
+        width: 120px;
+    }
+    .pagination__form::after {
+        border-left-width: 10px;
+        border-right-width: 10px;
+        border-bottom-width: 10px;
+    }
+    .pagination__label {}
+    .pagination__input {}
+    .pagination__submit {}
+    /* =========================Pagination ends========================= */
+    /* =========================Partner========================= */
+    .partner__slider .slick-prev,
+    .partner__slider .slick-next {
+        min-width: 44px;
+        min-height: 44px;
+        font-size: 4.0rem;
+    }
+    .partner__logo {
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        height: 80px;
+        margin-top: 14px;
+    }
+    .partner__logo img {
+        max-height: 65%;
+    }
+    /* =========================Partner ends========================= */
+    /* =========================About-us========================= */
+    .achievement ul li {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .achievement--box ul li {
+        max-width: 170px;
+        padding: 16px 2px 6px 12px;
+        margin-bottom: 13px;
+        margin-right: 23px;
+        height: 116px;
+    }
+    .achievement__number {}
+    .achievement__description {
+        margin-top: 10px;
+        padding-top: 20px;
+    }
+    .achievement--box .achievement__description {
+        margin-top: 6px;
+    }
+    /* =========================About-us ends========================= */
+    /* =========================Goal========================= */
+    .goal__heading {
+        margin-bottom: 10px;
+    }
+    .goal__vision {
+        padding: 20px 28px;
+    }
+    .goal__vision p {}
+    .goal__title {
+        padding-bottom: 10px;
+    }
+    .goal__description {}
+    .goal__illustrations.owl-carousel .owl-nav .owl-prev,
+    .goal__illustrations.owl-carousel .owl-nav .owl-next {
+        width: 40px;
+        height: 40px;
+        font-size: 2.0rem;
+    }
+    /* =========================Goal ends========================= */
+    /* =========================Timeline========================= */
+    .timeline {
+        height: 750px;
+    }
+    .timeline__info {
+        min-width: 240px;
+        max-width: 280px;
+    }
+    .timeline__item:before {
+        width: 80px;
+        height: 80px;
+    }
+    .timeline__item:after {
+        height: 62px;
+    }
+    .timeline__year {}
+    .timeline__goal {}
+    .timeline__summary {
+        margin-top: 10px;
+    }
+    /* =========================Timeline ends========================= */
+    /* =========================Question========================= */
+    .question {
+        max-width: 73%;
+    }
+    .question__heading {
+        margin-bottom: 18px;
+    }
+    /* =========================Question ends========================= */
+    /* =========================Tab========================= */
+    .tab__link {}
+    .tab__item+.tab__item {
+        margin-top: 8px;
+    }
+    /* =========================Tab ends========================= */
+    /* =========================Collapse========================= */
+    .collapse__toggle {
+        max-width: 500px;
+    }
+    .collapse__content p {}
+    /* =========================Collapse ends========================= */
+    /* =========================Contact========================= */
+    .contact__title {
+        margin-bottom: 44px;
+    }
+    .contact__info+.contact__info {
+        margin-top: 20px;
+    }
+    .contact__info h3 {}
+    .contact__info p {}
+    /* =========================Contact ends========================= */
+    /* =========================Custom form========================= */
+    .custom-form {
+        padding: 16px 22px;
+    }
+    .form__group {
+        margin-bottom: 20px;
+    }
+    .form__label {
+        margin-bottom: 10px;
+    }
+    .form__input .form__control {
+        padding-left: 45px;
+    }
+    .form__control {
+        padding: 12px 16px;
+    }
+    .form__input i {
+        font-size: 1.6rem;
+        padding: 14px 18px;
+    }
+    /* =========================Custom form ends========================= */
+    /* =========================Map========================= */
+    .contact__map {
+        height: 524px;
+    }
+    /* =========================Map ends========================= */
+    /* =========================Tab========================= */
+    .tab__list {
+        max-width: 1140px;
+    }
+    .tab__list--horizontal .tab__link {
+        width: 240px;
+        height: 170px;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        padding: 8px 18px;
+    }
+    .tab__icon {
+        width: 60px;
+        height: 60px;
+    }
+    /* =========================Tab ends========================= */
+    /* =========================Hiring========================= */
+    .hiring__content {
+        margin-top: 70px;
+        padding: 40px;
+    }
+    .hiring__info,
+    .hiring__content .info {
+        max-width: 480px;
+    }
+    .hiring__info {
+        margin-top: 20px;
+    }
+    .hiring__title {
+        margin-bottom: 10px;
+    }
+    .hiring__content .row+.row {
+        margin-top: 40px;
+    }
+    .hiring__list li {
+        margin-top: 3px;
+    }
+    .hiring__list p {}
+    /* =========================Hiring ends========================= */
+    /* =========================Blog========================= */
+    .blog h1,
+    .blog h2,
+    .blog h3,
+    .blog h4,
+    .blog h5,
+    .blog h6,
+    .blog p {
+        max-width: 1024px;
+    }
+    .blog p {
+        margin-bottom: 15px;
+    }
+    .blog .info img {
+        margin: 40px auto;
+    }
+    .blog blockquote {
+        max-width: 670px;
+        margin-bottom: 40px;
+    }
+    .blog blockquote:before,
+    .blog blockquote:after {
+        width: 32px;
+        height: 32px;
+    }
+    .blog__suggest {
+        max-width: 1024px;
+        margin-top: 70px;
+    }
+    .blog__info {
+        margin-left: 32px;
+    }
+    .blog__suggest img {
+        max-width: 120px;
+    }
+    .blog__more {}
+    .blog__more:before {
+        width: 57px;
+        margin-right: 10px;
+    }
+    /* =========================Blog ends========================= */
+    /* =========================Share========================= */
+    .share__label {}
+    .share__item {}
+    .blog>.share .share__item {
+        margin-top: 14px;
+    }
+    .share__item:first-child {
+        margin-left: 20px;
+    }
+    .share__item+.share__item {
+        margin-left: 14px;
+    }
+    /* =========================Share ends========================= */
+    /* ==============================Footer============================== */
+    .footer {
+        padding-top: 34px;
+    }
+    .footer__logo {
+        max-width: 240px;
+        margin-bottom: 45px
+    }
+    .footer__list {
+        margin-bottom: 25px;
+    }
+    .footer__heading {
+        margin-bottom: 15px;
+    }
+    .footer__title {}
+    .footer__info {
+        margin-left: 8px;
+        margin-right: 8px
+    }
+    .footer__info p {}
+    .footer__heading+p {
+        min-height: 54px;
+    }
+    .footer__contact {
+        margin-top: 15px;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        align-items: center;
+        -webkit-align-items: center;
+    }
+    .footer__contact p {
+        font-size: 1.2rem;
+        line-height: 1.4rem;
+    }
+    .footer__contact li {
+        margin-bottom: 8px;
+    }
+    .social__link {}
+    .footer__form {
+        margin-bottom: 16px;
+    }
+    .footer__form input {
+        padding-top: 8px;
+        padding-bottom: 8px;
+    }
+    .footer__form button {
+        width: 34px;
+        height: 34px;
+        padding: 8px;
+    }
+    .footer__copyright {
+        min-height: 80px;
+    }
+    .footer__copyright p {}
+    /* ==============================Footer ends============================== */
+}
+
+
+/* Laptop: 1024px <= width <= 1439px */
+
+@media screen and (min-width: 1024px) and (max-width:1439px) {
+    .section {
+        margin-bottom: 50px;
+    }
+    .container-1210px {
+        max-width: 810px;
+    }
+    #return {
+        width: 34px;
+        height: 34px;
+        font-size: 1.4rem;
+    }
+    /* ====================Text==================== */
+    .txt-12,
+    .news__origin,
+    .define__description,
+    .language__icon,
+    .pagination__label,
+    .pagination__input,
+    .pagination__submit,
+    .achievement__description,
+    .order__list p {
+        font-size: 1.0rem;
+        line-height: 1.4rem;
+    }
+    .txt-14,
+    .define__description,
+    .deposit .advantage__info p,
+    .mc .advantage__item p,
+    .service__link,
+    .news__summary {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+    .txt-16,
+    .navbar__link,
+    .menu__title,
+    .menu__link,
+    .navbar__menu--category .menu__link,
+    .header__form input,
+    .header__form button,
+    .info__description,
+    .megapay .feature__summary,
+    .document.feature .feature__item,
+    .news__address,
+    .news__date,
+    .news__more,
+    .blog p,
+    .blog__more,
+    .pagination__link,
+    .goal__heading,
+    .goal__description,
+    .timeline__summary,
+    .order__list--square p,
+    .order__list--circle .order__info,
+    .unorder__item p,
+    .collapse__content p,
+    .form__label,
+    .form__control,
+    .form__button,
+    .custom-button,
+    .contact__info p,
+    .hiring__list p,
+    .footer__info p,
+    .footer__form input,
+    .footer__form button,
+    .footer__copyright p,
+    .order__list--dot .order__title {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+    .txt-18,
+    .service__description,
+    .service__outlink,
+    .define__title {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+    .txt-20,
+    .info__more,
+    .news__title,
+    .achievement--box .achievement__description {
+        font-size: 1.6rem;
+        line-height: 2.0rem;
+    }
+    .txt-24,
+    .info__summary,
+    .service__title,
+    .megapay .feature__name,
+    .collection__title,
+    .collection__note,
+    .addition__title,
+    .define__addition,
+    .firmbanking .owl-carousel .owl-item p,
+    .support__summary,
+    .news__list--vertical .news__title,
+    .news__sub-title,
+    .news__month,
+    .share__label,
+    .share__item,
+    .goal__title,
+    .timeline__goal,
+    .tab__link,
+    .order__list--classic .order__item::before,
+    .order__list--box p,
+    .order__list--square h3,
+    .order__list--bg p,
+    .order__list--img p,
+    .order__list--bar .order__item p,
+    .order__list--parallel p,
+    .order__list--parallel .order__info,
+    .unorder__item::before,
+    .unorder__list--horizontal .unorder__item p,
+    .unorder__list--circle .unorder__item p,
+    .unorder__list--img .unorder__item p,
+    .unorder__list--box .unorder__item p,
+    .collapse__toggle,
+    .contact__info h3,
+    .hiring__title,
+    .footer__title,
+    .social__link {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+    .txt-25,
+    .blog blockquote {
+        font-size: 1.9rem;
+        line-height: 2.3rem;
+    }
+    .txt-30,
+    .deposit .advantage__sub {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+    .txt-36,
+    .megapay .feature__sub-title,
+    .news__heading,
+    .news__title.news__title--primary,
+    .achievement__record,
+    .achievement--box .achievement__number,
+    .order__item:before,
+    .order__list--parallel .order__info::before,
+    .unorder__title,
+    .flex__title,
+    .contact__title {
+        font-size: 2.4rem;
+        line-height: 2.9rem;
+    }
+    .txt-40,
+    .info__title {
+        font-size: 3.2rem;
+        line-height: 3.8rem;
+    }
+    .txt-50,
+    .deposit .advantage__title,
+    .define__heading,
+    .order__list--dot .order__item::before {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+    .txt-55,
+    .goal__vision p {
+        font-size: 3.2rem;
+        line-height: 3.8rem;
+    }
+    .txt-60,
+    .info__title.info__title--quote {
+        font-size: 3.2rem;
+        line-height: 3.8rem;
+    }
+    .txt-64,
+    .achievement__number {
+        font-size: 3.2rem;
+        line-height: 3.8rem;
+    }
+    .txt-70,
+    .order__list--bg .order__item::after {
+        font-size: 3.2rem;
+        line-height: 3.8rem;
+    }
+    .txt-78,
+    .megapay .feature__title,
+    .news__day,
+    .timeline__year,
+    .question__heading {
+        font-size: 3.2rem;
+        line-height: 3.8rem;
+    }
+    .txt-80,
+    .order__list--square .order__item::before {
+        font-size: 3.2rem;
+        line-height: 3.8rem;
+    }
+    .txt-200,
+    .order__list--img .order__item::before {
+        font-size: 20rem;
+        line-height: 20rem;
+    }
+    /* ====================Text ends==================== */
+    /* ==============================Header============================== */
+    .header {}
+    .header__pc {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .header__logo {
+        max-width: 140px;
+    }
+    /* ===========================NavBar============================== */
+    .navbar__item+.navbar__item {
+        margin-left: 16px;
+    }
+    .navbar__link {
+        font-size: 1.4rem;
+        line-height: 2.0rem;
+    }
+    .navbar__menu {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    .navbar__menu--category {
+        width: 472px;
+        padding: 10px 16px;
+    }
+    .navbar__menu--category .menu {
+        padding-top: 14px;
+    }
+    .navbar__menu--category .menu__item {
+        margin-top: 4px;
+    }
+    .menu__title {
+        padding-bottom: 4px;
+    }
+    .menu__list {
+        width: 160px;
+    }
+    .menu__link {
+        padding-top: 8px;
+        padding-bottom: 8px;
+        font-size: 1.4rem;
+    }
+    .navbar__menu .menu__link {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+    /* ===========================NavBar ends============================== */
+    /* ==============================Header form============================== */
+    .header__form {
+        margin-left: 16px;
+    }
+    .header__form input {
+        width: 180px;
+        padding: 6px 8px 6px 34px;
+        font-size: 1.4rem;
+    }
+    .header__form input::placeholder {
+        font-size: 1.4rem;
+    }
+    .header__form button {
+        height: 30px;
+        padding: 6px 8px;
+        font-size: 1.4rem;
+    }
+    /* ==============================Header form ends============================== */
+    /* ==============================Header language============================== */
+    .header__language {
+        margin-left: 16px;
+    }
+    /* ==============================Header language ends============================== */
+    /* ==============================Header ends============================== */
+    /* =========================Banner========================= */
+    .banner.owl-carousel .owl-nav .owl-prev,
+    .banner.owl-carousel .owl-nav .owl-next {
+        min-width: 34px;
+        min-height: 34px;
+        font-size: 1.6rem;
+    }
+    /* =========================Banner ends========================= */
+    /* =========================Info============================ */
+    .info.info {
+        margin-right: 0px;
+    }
+    .info.intro {
+        width: 39%;
+    }
+    .info.service {
+        max-width: 280px;
+    }
+    .info__title {
+        padding-bottom: 14px;
+        margin-bottom: 14px;
+    }
+    .info__title::after {
+        --custom-width: 60px;
+        border-bottom-width: 6px;
+    }
+    .info__content {
+        margin-top: 10px;
+    }
+    .info__more {
+        width: 100px;
+        margin-top: 18px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        padding: 6px 10px;
+    }
+    .info__more.info__more--borderless:before {
+        width: 26px;
+        margin-right: 6px;
+        margin-bottom: 2px;
+    }
+    /* =========================Info ends============================ */
+    /* =========================Intro================================= */
+    .intro__content {}
+    .intro__content--right {
+        padding-left: 20px;
+    }
+    .intro__content--left {
+        padding-right: 20px;
+    }
+    .intro__slider.owl-carousel .owl-nav .owl-prev,
+    .intro__slider.owl-carousel .owl-nav .owl-next {
+        width: 60px;
+        height: 60px;
+        font-size: 2.0rem;
+    }
+    .info__description {
+        margin-bottom: 24px;
+    }
+    /* =========================Intro ends================================= */
+    /* =========================Service========================= */
+    .section.service {
+        padding-top: 60px;
+        padding-bottom: 80px;
+    }
+    .method {
+        width: 500px;
+        height: 500px;
+    }
+    .method__img {
+        width: 60px;
+        height: 60px;
+    }
+    .service__list {}
+    .service__item {
+        margin-bottom: 8px;
+    }
+    .service__img {
+        height: 150px;
+    }
+    .service__link {
+        min-height: 58px;
+        padding: 10px 10px;
+    }
+    .service__title {
+        margin-top: 8px;
+        margin-bottom: 14px
+    }
+    .service__content {
+        margin-top: 18px;
+    }
+    .service__description {
+        /* font-size: 1.5rem;
+        line-height: 2.0rem; */
+    }
+    .service__outlink {
+        margin-top: 8px;
+    }
+    /* =========================Service ends========================= */
+    /* =========================Megapay service========================= */
+    .megapay.banner__content .banner__info {
+        top: 35%;
+        width: 50%;
+    }
+    .megapay.feature {
+        min-height: 600px;
+    }
+    .megapay .feature__title {}
+    .megapay .feature__sub-title {
+        margin-top: 4px;
+    }
+    .txt-24,
+    .info__summary,
+    .service__title,
+    .megapay .feature__name,
+    .collection__title,
+    .collection__note,
+    .addition__title,
+    .define__addition,
+    .firmbanking .owl-carousel .owl-item p,
+    .support__summary,
+    .news__list--vertical .news__title,
+    .news__sub-title,
+    .news__month,
+    .share__label,
+    .share__item,
+    .goal__title,
+    .timeline__goal,
+    .tab__link,
+    .order__list--classic .order__item::before,
+    .order__list--box p,
+    .order__list--square h3,
+    .order__list--bg p,
+    .order__list--img p,
+    .order__list--bar .order__item p,
+    .order__list--parallel p,
+    .order__list--parallel .order__info,
+    .unorder__item::before,
+    .unorder__list--horizontal .unorder__item p,
+    .unorder__list--circle .unorder__item p,
+    .unorder__list--img .unorder__item p,
+    .unorder__list--box .unorder__item p,
+    .collapse__toggle,
+    .contact__info h3,
+    .hiring__title,
+    .footer__title,
+    .social__link {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+    .megapay .feature__title:before,
+    .megapay .feature__title:after {
+        width: 45px;
+        height: 45px;
+    }
+    .megapay .feature__list--left {
+        padding-left: 0px;
+    }
+    .megapay .feature__list--right {
+        padding-right: 30px;
+    }
+    .megapay .feature__list--center {
+        max-width: 400px;
+    }
+    .megapay .feature__item {
+        margin-top: 30px;
+        min-height: 0px;
+    }
+    .megapay .feature__item:first-child {
+        margin-top: 10px;
+    }
+    .megapay .feature__icon {
+        min-width: 52px;
+        height: 52px;
+    }
+    .megapay .feature__icon--flag {
+        border-radius: 0 0 8px 8px;
+        -webkit-border-radius: 0 0 8px 8px;
+        -moz-border-radius: 0 0 8px 8px;
+    }
+    .megapay .feature__info {
+        margin-left: 18px;
+    }
+    .megapay .feature__name {
+        margin-bottom: 6px;
+    }
+    .megapay .feature__summary {}
+    .megapay.advantage--with-bg {
+        padding-top: 5%;
+        padding-bottom: 3%;
+    }
+    .megapay__info {
+        max-width: 380px;
+    }
+    /* =========================Megapay service ends========================= */
+    /* =========================Deposit code========================= */
+    .deposit.procedure {
+        padding: 60px 3%;
+    }
+    .general__content {
+        display: block;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .general__content p:nth-child(1) {
+        max-width: 250px;
+    }
+    .general__content p:nth-child(2) {
+        max-width: 250px;
+    }
+    .general__content p:nth-child(3) {
+        max-width: 250px;
+    }
+    .general__img {
+        margin-top: 50px;
+    }
+    .general__img::before {
+        width: 170px;
+        height: 170px;
+    }
+    .section .deposit .benefit .container-80 {
+        max-width: 90%;
+    }
+    .deposit.benefit {
+        background-size: 230px 230px;
+    }
+    .deposit.advantage {
+        height: 730px;
+    }
+    .deposit .advantage__title {}
+    .deposit .advantage__sub {
+        margin-top: 8px;
+        max-width: 180px;
+    }
+    .deposit .advantage__item {
+        margin-bottom: 40px;
+    }
+    .deposit .advantage__item:first-child {
+        padding-left: 4%;
+    }
+    .deposit .advantage__item:first-child+.advantage__item {
+        padding-right: 4%;
+    }
+    .deposit .advantage__item:nth-last-child(2) {
+        padding-left: 4%;
+    }
+    .deposit .advantage__item:last-child {
+        padding-right: 4%;
+    }
+    .deposit .advantage__info {
+        width: 280px;
+        border-radius: 57px;
+        -webkit-border-radius: 57px;
+        -moz-border-radius: 57px;
+    }
+    .deposit .advantage__img {
+        min-width: 50px;
+        height: 50px;
+    }
+    .deposit .advantage__info p {
+        padding: 0 16px;
+    }
+    .deposit.addition {
+        padding-left: 150px;
+        padding-right: 100px;
+    }
+    .addition__content {
+        margin-top: 37px;
+    }
+    .collection__list {
+        margin-top: 100px;
+    }
+    .collection__item {
+        width: 240px;
+        padding: 0 20px 30px 20px;
+    }
+    .collection__img {
+        min-width: 150px;
+        min-height: 200px;
+    }
+    .collection__img::before {
+        width: 200px;
+        height: 230px;
+        border-top-left-radius: 20px;
+        -webkit-border-top-left-radius: 20px;
+        -moz-border-top-left-radius: 20px;
+        border-top-right-radius: 20px;
+        -webkit-border-top-right-radius: 20px;
+        -moz-border-top-right-radius: 20px;
+    }
+    .collection__title {
+        margin-top: 13px;
+    }
+    .collection__note {}
+    .collection__title+.collection__note {
+        margin-top: 12px;
+    }
+    /* =========================Deposit code ends========================= */
+    /* =========================Firmbanking========================= */
+    .general__content.general__content--vertical p {
+        margin-top: 26px;
+        max-width: 100%;
+    }
+    .general__content--vertical .info__content {
+        max-width: 500px;
+    }
+    .general__content--vertical .info {
+        margin-left: 80px;
+    }
+    .firmbanking.banner__content .banner__info {
+        top: 30%;
+        max-width: 50%;
+    }
+    .firmbanking.definition {
+        padding-top: 50px;
+    }
+    .define__item:nth-child(1) {
+        left: 22.5%;
+    }
+    .define__item:nth-child(2) {
+        left: 43%;
+    }
+    .define__item:nth-child(3) {
+        left: 63.2%;
+    }
+    .define__heading {}
+    .define__item {
+        padding: 5px 5px;
+        min-width: 150px;
+        top: 52%;
+    }
+    .define__title {
+        margin-top: 5px;
+        margin-bottom: 5px;
+        max-width: 100px;
+    }
+    .define__description {
+        max-width: 140px;
+    }
+    .define__addition {
+        max-width: 800px;
+    }
+    .firmbanking.field {
+        background-size: 300px 300px;
+    }
+    .firmbaking.general .general__content {
+        display: flex;
+        width: 100%;
+        margin-left: 0px;
+    }
+    .firmbanking .advantage {
+        height: 360px;
+    }
+    .firmbanking .owl-carousel .owl-nav button {
+        min-width: 50px;
+        height: 50px;
+        font-size: 1.8rem !important;
+    }
+    .firmbanking .owl-carousel .owl-item p {
+        max-width: 240px;
+        height: 140px;
+        padding: 22px 18px 0 18px;
+    }
+    .firmbanking.addition {
+        margin-bottom: 100px;
+    }
+    .addition--b-r::before {
+        min-width: 240px;
+        height: 240px;
+    }
+    .order__list--dot {
+        max-width: 80%;
+    }
+    .deposit.banner__content .banner__info {
+        top: 30%;
+        width: 50%;
+    }
+    .general__content .info {
+        max-width: 100%;
+        margin-left: 150px;
+        margin-right: 20px;
+        padding-right: 0px;
+        margin-bottom: 50px;
+    }
+    .deposit .advantage__heading {
+        top: 55%;
+        left: 55%;
+        transform: translate(-80%, -80%);
+    }
+    .firmbanking .advantage__list {
+        margin-top: 0px;
+    }
+    /* =========================Firmbanking ends========================= */
+    /* =========================Epaypos========================= */
+    .epaypos.advantage {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .epaypos__wrap {
+        padding: 0 100px;
+    }
+    .support__info {
+        height: 600px;
+        padding-left: 150px;
+        padding-right: 70px;
+    }
+    .support__info .info {
+        max-width: 400px;
+    }
+    .support__summary {
+        padding-top: 40px;
+    }
+    .support__summary+.support__summary {
+        padding-top: 14px;
+        padding-bottom: 6px;
+    }
+    .addition__info {
+        max-width: 400px;
+    }
+    .addition__title {
+        margin-bottom: 32px;
+    }
+    .addition--t-r::before {
+        min-width: 240px;
+        height: 220px;
+    }
+    /* =========================Epaypos ends========================= */
+    /* =========================Document collection========================= */
+    .epaypos.banner__content .banner__info {
+        max-width: 50%;
+        top: 35%;
+    }
+    .document.feature {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .document.feature .feature__list {
+        height: 380px;
+    }
+    .document.feature .feature__item {}
+    .document.procedure {
+        padding-top: 60px;
+        padding-bottom: 60px;
+    }
+    .document .partner__list {
+        margin-top: 20px;
+    }
+    .document .partner__list img {
+        max-height: 80px;
+        max-width: 140px;
+    }
+    .document .partner__list img+img {
+        margin-left: 70px;
+    }
+    .unorder__list--img .unorder__item p {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+    /* =========================Document collection ends========================= */
+    /* =========================MC, MD========================= */
+    .mc .advantage__item {
+        max-width: 250px;
+        height: 115px;
+    }
+    .mc .advantage__item p {
+        /* font-size: 1.2rem;
+        line-height: 1.6rem; */
+        max-width: 130px;
+    }
+    .mc .advantage__item:first-child {
+        margin-left: 15%;
+        margin-bottom: 50px;
+    }
+    .mc .advantage__item:nth-child(-n+3) {
+        margin-bottom: 50px;
+    }
+    .mc .advantage__list {
+        padding-left: 5%;
+    }
+    .md__info {
+        max-width: 300px;
+    }
+    /* =========================MC, MD ends========================= */
+    /* =========================Box========================= */
+    .box {
+        width: 160px;
+        height: 60px;
+    }
+    /* =========================Box ends========================= */
+    /* =========================Flex========================= */
+    .flex__title {}
+    /* =========================Flex ends========================= */
+    /* =========================Unorder list========================= */
+    .unorder__list {
+        padding: 14px;
+    }
+    .unorder__item+.unorder__item {
+        margin-top: 12px;
+    }
+    .unorder__list--horizontal .unorder__item {
+        max-width: 310px;
+    }
+    .unorder__item::before {
+        margin-right: 8px;
+    }
+    .unorder__item p {
+        max-width: 300px;
+    }
+    .unorder__list--horizontal .unorder__item p {}
+    .unorder__list--circle .unorder__item:first-child {
+        margin-top: 8px;
+    }
+    .unorder__list--circle .unorder__item+.unorder__item {
+        margin-top: 18px;
+    }
+    .unorder__list--circle .unorder__item p {
+        max-width: 310px;
+    }
+    .unorder__title {
+        margin-top: 38px;
+        margin-bottom: 0px;
+    }
+    .unorder__list--img .unorder__item {
+        padding: 18px 10px;
+    }
+    .unorder__list--img .unorder__wrap {
+        min-width: 140px;
+        height: 140px;
+    }
+    .unorder__list--img .unorder__item p {
+        max-width: 100px;
+    }
+    .unorder__list--box .unorder__item {
+        min-width: 200px;
+        height: 170px;
+    }
+    .unorder__list--box .unorder__item+.unorder__item {
+        margin-top: 0;
+    }
+    .unorder__list--box .unorder__item p {
+        max-width: 140px;
+        margin-top: 12px;
+    }
+    /* =========================Unorder list ends========================= */
+    /* =========================Order list========================= */
+    .order__item {
+        width: 640px;
+        margin-top: 8px;
+        padding-bottom: 16px;
+    }
+    .order__item:before {
+        margin-right: 18px;
+    }
+    .order__list--img .order__item::before {
+        font-size: 14rem;
+        line-height: 14rem;
+    }
+    .order__list--bg .order__item::after {
+        width: 130px;
+        margin-bottom: 16px;
+    }
+    .order__list--bg p {
+        max-width: 200px;
+    }
+    .order__list--bar .order__item {
+        width: 360px;
+        margin-bottom: 20px;
+        padding: 10px;
+    }
+    .order__list--bar .order__item::before {
+        padding: 8px;
+        margin-right: 16px;
+    }
+    .order__list--bar .order__item p {}
+    .order__list--dot .order__item {
+        max-width: 328px;
+        flex: 1 1 370px;
+        -webkit-flex: 1 1 370px;
+        -moz-flex: 1 1 370px;
+        -ms-flex: 1 1 370px;
+    }
+    .order__list--dot .order__item::before {
+        margin-right: 12px;
+    }
+    .order__list--dot .order__title {
+        margin-bottom: 2px;
+    }
+    .order__list p {}
+    .order__list--classic .order__item::before {
+        padding: 12px;
+        margin-right: 10px;
+    }
+    .order__list--classic p {
+        max-width: 250px;
+    }
+    .order__list--box .order__item {
+        max-width: 410px;
+        height: 178px;
+        padding: 0 20px;
+    }
+    .order__list--box .order__item::before {
+        padding: 12px 16px;
+        border-radius: 0 0 8px 8px;
+        -webkit-border-radius: 0 0 8px 8px;
+        -moz-border-radius: 0 0 8px 8px;
+        margin-bottom: 12px;
+    }
+    .order__list--box p {}
+    .order__list--square {
+        max-width: 960px;
+    }
+    .order__list--square .order__item {
+        max-width: 430px;
+    }
+    .order__list--square .order__item::before {
+        padding: 16px 22px;
+        border-radius: 12px;
+        -webkit-border-radius: 12px;
+        -moz-border-radius: 12px;
+        font-size: 2.6rem;
+        line-height: 3.2rem;
+    }
+    .order__list--square h3 {}
+    .order__list--square p {
+        margin-top: 14px;
+    }
+    .order__list--circle .order__item:nth-child(1)::before {
+        width: 240px;
+        height: 260px;
+    }
+    .order__list--parallel {
+        height: 460px;
+    }
+    .order__list--parallel .order__info::before {}
+    .order__list--parallel .order__info {
+        width: 260px;
+        height: 180px;
+        padding: 48px 18px 18px 26px;
+    }
+    .order__list--parallel p {}
+    .order__list--img .order__item {
+        flex-basis: 260px;
+        -webkit-flex-basis: 260px;
+        -moz-flex-basis: 260px;
+        max-width: 260px;
+    }
+    .order__list--img .order__item::before {
+        font-size: 12rem;
+        line-height: 12rem;
+    }
+    .order__list--img p {
+        max-width: 170px;
+    }
+    .order__list--img .order__img {
+        max-width: 150px;
+        height: 150px;
+        border-width: 10px;
+    }
+    .order__list--circle .order__item {
+        width: 238px;
+    }
+    .order__list--circle .order__item:nth-child(1)::before {
+        width: 174px;
+        height: 196px;
+        font-size: 13rem;
+        line-height: 174px;
+    }
+    .order__list--circle .order__item:nth-child(2)::before {
+        width: 134px;
+        height: 150px;
+        font-size: 9rem;
+        line-height: 134px;
+    }
+    .order__list--circle .order__item:nth-child(3)::before {
+        width: 106px;
+        height: 118px;
+        font-size: 7rem;
+        line-height: 106px;
+    }
+    .order__list--circle .order__item:nth-child(4)::before {
+        width: 72px;
+        height: 80px;
+        font-size: 5rem;
+        line-height: 72px;
+    }
+    .order__list--circle .order__item:nth-child(5)::before {
+        width: 56px;
+        height: 62px;
+        font-size: 3rem;
+        line-height: 56px;
+    }
+    .order__list--circle .order__item:nth-child(6)::before {
+        width: 38px;
+        height: 42px;
+        font-size: 2.0rem;
+        line-height: 38px;
+    }
+    .order__list--circle .order__item:nth-child(7)::before {
+        width: 22px;
+        height: 24px;
+        font-size: 1.4rem;
+        line-height: 22px;
+    }
+    .mc.procedure .order__list--circle .order__item:nth-child(1) .order__info {
+        width: 124px;
+    }
+    .mc.procedure .order__list--circle .order__item:nth-child(2) .order__info {
+        width: 154px;
+    }
+    .mc.procedure .order__list--circle .order__item:nth-child(3) .order__info {
+        width: 114px;
+    }
+    .mc.procedure .order__list--circle .order__item:nth-child(4) .order__info {
+        width: 150px;
+    }
+    .mc.procedure .order__list--circle .order__item:nth-child(5) .order__info {
+        width: 156px;
+    }
+    .mc.procedure .order__list--circle .order__item:nth-child(6) .order__info {
+        width: 200px;
+    }
+    .mc.procedure .order__list--circle .order__item:nth-child(7) .order__info {
+        width: 116px;
+    }
+    .md.procedure .order__list--circle .order__item:nth-child(1) .order__info {
+        width: 144px;
+    }
+    .md.procedure .order__list--circle .order__item:nth-child(2) .order__info {
+        width: 144px;
+    }
+    .md.procedure .order__list--circle .order__item:nth-child(3) .order__info {
+        width: 172px;
+    }
+    .md.procedure .order__list--circle .order__item:nth-child(4) .order__info {
+        width: 146px;
+    }
+    .md.procedure .order__list--circle .order__item:nth-child(5) .order__info {
+        width: 148px;
+    }
+    .md.procedure .order__list--circle .order__item:nth-child(6) .order__info {
+        width: 146px;
+    }
+    /* =========================Order list ends========================= */
+
+    /* =========================Esan========================= */
+    /* =========================Esan ends========================= */
+
+    /* =========================News========================= */
+    /* =========================News========================= */
+    .news__list {
+        margin-bottom: 24px;
+    }
+    .news__list--vertical .news__content::before {
+        width: 14px;
+        height: 14px;
+    }
+    .news__content {}
+    .news__address {
+        margin-top: 10px;
+        margin-bottom: 6px;
+        padding: 0 14px;
+    }
+    .news__title {
+        margin-top: 14px;
+        padding: 0 16px;
+        min-height: 44px;
+        margin-bottom: 6px;
+    }
+    .news__info {
+        padding: 0 16px;
+    }
+    .news__heading {}
+    .news__sub-title {
+        margin-bottom: 6px;
+    }
+    .news__summary {
+        min-height: 100px;
+    }
+    .news__sub-title+.news__summary {
+        max-width: 300px;
+    }
+    .news__date {}
+    .news__date:before {
+        width: 40px;
+    }
+    .news__more {
+        padding: 14px;
+    }
+    /* =========================News ends========================= */
+
+    /* =========================Pagination========================= */
+    .news__old .pagination {
+        margin-right: 30px;
+    }
+    .pagination__item:first-child+.pagination__item {
+        margin-left: 10px;
+    }
+    .pagination__item+.pagination__item:last-child {
+        margin-left: 10px;
+    }
+    .pagination__link {
+        width: 18px;
+        height: 18px;
+    }
+    .pagination__form {
+        width: 100px;
+    }
+    .pagination__form::after {
+        border-left-width: 8px;
+        border-right-width: 8px;
+        border-bottom-width: 8px;
+    }
+    .pagination__label {
+        padding: 4px 6px;
+    }
+    .pagination__input {
+        height: 24px;
+    }
+    .pagination__submit {
+        height: 24px;
+    }
+    /* =========================Pagination ends========================= */
+    /* =========================Partner========================= */
+    .partner__slider .slick-prev,
+    .partner__slider .slick-next {
+        min-width: 36px;
+        min-height: 36px;
+        font-size: 3.4rem;
+    }
+    .partner__logo {
+        border-radius: 8px;
+        -webkit-border-radius: 8px;
+        -moz-border-radius: 8px;
+        height: 65px;
+        margin-top: 10px;
+    }
+    .partner__logo img {
+        max-height: 65%;
+    }
+    /* =========================Partner ends========================= */
+    /* =========================About-us========================= */
+    .achievement ul li {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    .achievement--box ul li {
+        max-width: 145px;
+        height: 98px;
+        padding: 12px 12px;
+        margin-bottom: 18px;
+        margin-right: 18px;
+    }
+    .home .achievement {
+        margin-top: 30px;
+        width: 58%;
+    }
+    .achievement__number {}
+    .achievement__description {
+        margin-top: 6px;
+        padding-top: 14px;
+    }
+    /* =========================About-us ends========================= */
+    /* =========================Goal========================= */
+    .goal__heading {
+        margin-bottom: 6px;
+    }
+    .goal__vision {
+        padding: 10px 18px;
+    }
+    .goal__vision p {}
+    .goal__title {
+        padding-bottom: 8px;
+    }
+    .goal__description {}
+    .goal__illustrations.owl-carousel .owl-nav .owl-prev,
+    .goal__illustrations.owl-carousel .owl-nav .owl-next {
+        width: 30px;
+        height: 30px;
+        font-size: 1.6rem;
+    }
+    /* =========================Goal ends========================= */
+    /* =========================Timeline========================= */
+    .timeline {
+        height: 650px;
+    }
+    .timeline__info {
+        min-width: 200px;
+        max-width: 240px;
+    }
+    .timeline__item:before {
+        width: 60px;
+        height: 60px;
+    }
+    .timeline__item:after {
+        height: 42px;
+    }
+    .timeline__year {}
+    .timeline__goal {}
+    .timeline__summary {
+        margin-top: 5px;
+    }
+    /* =========================Timeline ends========================= */
+    /* =========================Question========================= */
+    .question {
+        max-width: 80%;
+    }
+    .question__heading {
+        margin-bottom: 12px;
+    }
+    /* =========================Question ends========================= */
+    /* =========================Tab========================= */
+    .tab__link {}
+    .tab__item+.tab__item {
+        margin-top: 4px;
+    }
+    /* =========================Tab ends========================= */
+    /* =========================Collapse========================= */
+    .collapse__toggle {
+        max-width: 440px;
+    }
+    .collapse__content p {}
+    /* =========================Collapse ends========================= */
+    /* =========================Contact========================= */
+    .contact__title {
+        margin-bottom: 34px;
+    }
+    .contact__info+.contact__info {
+        margin-top: 15px;
+    }
+    .contact__info h3 {}
+    .contact__info p {}
+    /* =========================Contact ends========================= */
+    /* =========================Custom form========================= */
+    .custom-form {
+        padding: 12px 16px;
+    }
+    .form__group {
+        margin-bottom: 12px;
+    }
+    .form__label {
+        margin-bottom: 4px;
+    }
+    .form__input .form__control {
+        padding-left: 35px;
+    }
+    .form__control {
+        padding: 6px 10px;
+    }
+    .form__input i {
+        font-size: 1.4rem;
+        padding: 8px 12px;
+    }
+    /* =========================Custom form ends========================= */
+    /* =========================Map========================= */
+    .contact__map {
+        height: 404px;
+    }
+    /* =========================Map ends========================= */
+    /* =========================Tab========================= */
+    .tab__list {
+        max-width: 990px;
+    }
+    .tab__list--horizontal .tab__link {
+        width: 200px;
+        height: 140px;
+        border-radius: 10px;
+        -webkit-border-radius: 10px;
+        -moz-border-radius: 10px;
+        padding: 6px 14px;
+    }
+    .tab__icon {
+        width: 50px;
+        height: 50px;
+    }
+    /* =========================Tab ends========================= */
+    /* =========================Hiring========================= */
+    .hiring__content {
+        margin-top: 60px;
+        padding: 30px;
+    }
+    .hiring__info,
+    .hiring__content .info {
+        max-width: 370px;
+    }
+    .hiring__info {
+        margin-top: 15px;
+    }
+    .hiring__title {
+        margin-bottom: 5px;
+    }
+    .hiring__content .row+.row {
+        margin-top: 30px;
+    }
+    .hiring__list li {
+        margin-top: 2px;
+    }
+    .hiring__list p {}
+    /* =========================Hiring ends========================= */
+    /* =========================Blog========================= */
+    .blog h1,
+    .blog h2,
+    .blog h3,
+    .blog h4,
+    .blog h5,
+    .blog h6,
+    .blog p {
+        max-width: 810px;
+    }
+    .blog p {
+        margin-bottom: 10px;
+    }
+    .blog .info img {
+        margin: 30px auto;
+    }
+    .blog blockquote {
+        max-width: 570px;
+        margin-bottom: 30px;
+    }
+    .blog blockquote:before,
+    .blog blockquote:after {
+        width: 30px;
+        height: 30px;
+    }
+    .blog__suggest {
+        max-width: 810px;
+        margin-top: 60px;
+    }
+    .blog__suggest img {
+        max-width: 100px;
+    }
+    .blog__info {
+        margin-left: 22px;
+        max-width: 300px;
+    }
+    .blog__more {}
+    .blog__more:before {
+        width: 57px;
+        margin-right: 10px;
+    }
+    /* =========================Blog ends========================= */
+    /* =========================Share========================= */
+    .share__label {}
+    .share__item {}
+    .blog>.share .share__item {
+        margin-top: 10px;
+    }
+    .share__item:first-child {
+        margin-left: 16px;
+    }
+    .share__item+.share__item {
+        margin-left: 10px;
+    }
+    /* =========================Share ends========================= */
+    /* ==============================Footer============================== */
+    .footer {
+        padding-top: 24px;
+    }
+    .footer__logo {
+        max-width: 200px;
+        margin-bottom: 25px
+    }
+    .footer__list {
+        margin-bottom: 15px;
+    }
+    .footer__heading {
+        margin-bottom: 8px;
+        margin-top: 8px;
+    }
+    .footer__title {}
+    .footer__info {}
+    .footer__info p {
+        max-width: 200px;
+    }
+    .footer__heading+p {
+        min-height: 54px;
+    }
+    .footer__contact {
+        margin-top: 6px;
+        flex-wrap: wrap;
+        -webkit-flex-wrap: wrap;
+        -moz-flex-wrap: wrap;
+        align-items: center;
+        -webkit-align-items: center;
+        justify-content: unset;
+    }
+    .footer__contact li+li {
+        margin-left: 0px;
+    }
+    .footer__contact li {
+        margin-bottom: 8px;
+    }
+    .footer__contact p {}
+    .social__link {}
+    .footer__form {
+        margin-bottom: 16px;
+    }
+    .footer__form input {
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+    .footer__form button {
+        width: 28px;
+        height: 28px;
+        padding: 6px;
+    }
+    .footer__copyright {
+        min-height: 60px;
+    }
+    .footer__copyright img+img {
+        margin-left: 20px;
+    }
+    .footer__copyright p {
+        max-width: 560px;
+    }
+    .footer__copyright img {
+        max-height: 60px;
+    }
+    /* ==============================Footer ends============================== */
+}
+
+
+/* Tablet: 740px <= width <= 1023px */
+
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    .section {
+        margin-bottom: 60px;
+    }
+    .container-1210px {
+        max-width: 810px;
+    }
+    #return {
+        width: 34px;
+        height: 34px;
+        font-size: 1.4rem;
+    }
+    /* ====================Text==================== */
+    .info__title.info__title--quote {
+        font-size: 2.8rem;
+    }
+    .txt-19,
+    .megapay .feature__sub-title,
+    .news__heading,
+    .news__title.news__title--primary,
+    .achievement__record,
+    .achievement--box .achievement__number,
+    .order__item:before,
+    .order__list--dot .order__title,
+    .order__list--parallel .order__info::before,
+    .unorder__title,
+    .flex__title,
+    .contact__title {
+        font-size: 1.9rem;
+    }
+    .txt-14,
+    .info__more,
+    .news__title,
+    .achievement--box .achievement__description {
+        font-size: 1.4rem;
+        line-height: 1.9rem;
+    }
+    .txt-32, 
+    .info__title,
+    .esan .feature__name {
+        font-size: 3.2rem;
+        line-height: 3.8rem;
+    }
+    .achievement--box .achievement__description {
+        margin-top: 0;
+    }
+    /* ====================Text ends==================== */
+    /* =========================Header========================== */
+    .header {}
+    .header__pc {
+        padding-top: 25px;
+        padding-bottom: 25px;
+    }
+    .header__logo {
+        max-width: 180px;
+    }
+    /* ===========================NavBar============================== */
+    .navbar__item+.navbar__item {
+        margin-left: 24px;
+    }
+    .navbar__link {
+        font-size: 1.6rem;
+        line-height: 2.2rem;
+    }
+    .navbar__menu {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    .navbar__menu--category {
+        width: 572px;
+        padding: 14px 5%;
+    }
+    .navbar__menu--category .menu {
+        padding-top: 22px;
+    }
+    .navbar__menu--category .menu__item {
+        margin-top: 4px;
+    }
+    .menu__title {
+        padding-bottom: 6px;
+    }
+    .menu__list {
+        width: 180px;
+    }
+    .menu__link {
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font-size: 1.6rem;
+    }
+    .navbar__menu .menu__link {
+        font-size: 1.4rem;
+        line-height: 2.0rem;
+    }
+    /* ===========================NavBar ends============================== */
+
+    /* =========================Question========================= */
+    /* =========================Question========================= */
+    /* =========================Question========================= */
+    /* =========================Question========================= */
+    /* =========================Question========================= */
+    /* =========================Question========================= */
+    /* =========================Question========================= */
+    /* =========================Question========================= */
+    /* =========================Question========================= */
+    /* =========================Question========================= */
+    /* =========================Question========================= */
+    /* =========================Question========================= */
+    /* =========================Question========================= */
+    /* =========================Question========================= */
+    /* =========================Question========================= */
+    /* =========================Question========================= */
+    /* =========================Question========================= */
+    /* =========================Question========================= */
+    /* =========================Question========================= */
+    /* =========================Question========================= */
+    /* =========================Question========================= */
+    /* =========================Question========================= */
+    .esan.banner__content .banner__info {
+        top: 23%;
+        left: 45%;
+        width: 45%;
+    }
+    /* =========================Esan========================= */
+    /* =========================Esan ends========================= */
+
+
+    /* =========================Question========================= */
+.question {
+    max-width: 80%;
+    flex-direction: column;
+}
+.question .question__target {
+    max-width: 100%;
+}
+.question__answer {
+    margin-top: 30px;
+}
+/* =========================Question ends========================= */
+
+
+
+}
+
+/* Mobile: width <= 739px */
+
+@media screen and (max-width: 739px) {
+    /* ============================== Buttons and Banner ===========================*/
+    .info__more {
+        width: 90px;
+        padding: 5px 5px;
+        margin-top: 10px;
+    }
+    .info__more+.info__more {
+        margin-left: 10px;
+    }
+    .home.banner__content .info__content {
+        max-width: 90%;
+    }
+    .info__title {
+        padding-bottom: 10px;
+        padding-top: 20px;
+        margin-bottom: 30px;
+    }
+    .info.intro .info__title {
+        padding-top: 20px;
+    }
+    .info__title::after {
+        --custom-width: 50px;
+        border-bottom: 5px solid var(--primary-color);
+
+    }
+    .partner__slider .slick-prev,
+    .partner__slider .slick-next {
+        font-size: 2rem;
+    }
+    .partner__info {
+        margin: 0 auto 25px;
+    }
+    /* ============================== Buttons and Banner ends===========================*/
+    /* ==============================Text============================== */
+    .text-10,
+    .header__form button,
+    .service__link,
+    .define__description,
+    .mc .advantage__item p,
+    .news__address,
+    .news__date,
+    .news__more,
+    .blog__more,
+    .goal__description,
+    .order__list--circle .order__info,
+    .question__answer .collapse-1,
+    .form__control,
+    .form__button,
+    .collection__note,
+    .define__title,
+    .define__addition,
+    .firmbanking .owl-carousel .owl-item p,
+    .news__month,
+    .share__label,
+    .share__item,
+    .goal__title,
+    .order__list--box p,
+    .order__list--parallel p,
+    .order__list--parallel .order__info,
+    .unorder__item::before,
+    .unorder__list--img .unorder__item p,
+    .unorder__list--box .unorder__item p,
+    .txt-20,
+    .info__more,
+    .news__title,
+    .megapay .feature__sub-title 
+{
+        font-size: 1rem;
+        line-height: 1.4rem;
+    }
+    .text-12,
+    .achievement--box .achievement__description,
+    .achievement__record,
+    .achievement--box .achievement__number,
+    .collection__title,
+    .document.procedure .order__list--square p,
+    .pagination__link,
+    .header__form input,
+    .navbar__menu--category .menu__link,
+    .mc.procedure .order__list p,
+    .megapay .feature__summary,
+    .news__heading,
+    .news__title.news__title--primary,
+    .order__list--parallel .order__info::before,
+    .order__list .collapse__content p,
+    .txt-12,
+    .goal__vision p,
+    .define__heading,
+    .timeline__summary,
+    .unorder__item p {
+        font-size: 1.2rem;
+        line-height: 1.6rem;
+    }
+    .text-14,
+    .blog p,
+    .blog h3,
+    .collapse__toggle,
+    .contact__info p,
+    .contact__title,
+    .contact__info h3,
+    .deposit .advantage__info p,
+    .deposit.advantage .order__list--img p,
+    .document.feature .feature__item,
+    .document.feature .order__list--box p,
+    .epaypos.addition .order__list p,
+    .esan .feature__name,
+    .flex__title,
+    .footer__logotittle,
+    .footer__title,
+    .footer__info p,
+    .footer__form input,
+    .footer__form button,
+    .footer__copyright p,
+    .goal__heading,
+    .hiring__title,
+    .hiring__list p,
+    .info__summary,
+    .info__more,
+    .info__description,
+    .order__list--square h3,
+    .order__list--classic .order__item::before,
+    .md.advantage .order__list p,
+    .menu__title,
+    .megapay .feature__sub-title,
+    .megapay .feature__name,
+    .news__title,
+    .news__summary,
+    .order__list--bar .order__item p,
+    .order__item:before,
+    .form__label,
+    .custom-button,
+    .section.firmbanking .order__list p,
+    .deposit.procedure .order__list p,
+    .support__summary,
+    .epaypos.support .unorder__item p,
+    .addition__title,
+    .news__list--vertical .news__title,
+    .service__title,
+    .shipantoan .feature__name,
+    .timeline__goal,
+    .tab__link,
+    .unorder__list--horizontal .unorder__item p,
+    .unorder__list--circle .unorder__item p,
+    .unorder__title {
+        font-size: 1.4rem;
+        line-height: 1.8rem;
+    }
+    .text-16,
+    .menu__link,
+    .megapay .feature__title,
+    .navbar__link,
+    .navbar__menu.navbar__menu--category .menu__title,
+    .news__list--vertical .news__title,
+    .news__sub-title,
+    .order__list--dot .order__title {
+        font-size: 1.6rem;
+        line-height: 2.0rem;
+    }
+    .text-18 {
+        font-size: 1.8rem;
+        line-height: 2.2rem;
+    }
+    .text-20,
+    .info__title,
+    .info__title.info__title--quote,
+    .timeline__year,
+    .order__list--square .order__item::before,
+    .order__list--bg,
+    .order__list p,
+    .question__heading,
+    .social__link {
+        font-size: 2.0rem;
+        line-height: 2.4rem;
+    }
+    .text-40,
+    .order__list--img .order__item::before {
+        font-size: 4.0rem;
+        line-height: 4.4rem;
+    }
+    .text-50,
+    .order__list--img .order__item::before {
+        font-size: 5.0rem;
+        line-height: 5.4rem;
+    }
+    /* ==============================Text ends============================== */
+ 
+    /* ==============================Homepage ============================== */
+    .section {
+        margin-bottom: 0px;
+    }
+    .banner__info {
+        width: 100%;
+    }
+    .home.banner__content {
+        padding-top: 165%;
+    }
+    .home.banner__content .decoration__list .decoration__item #decoration__mgp {
+        top: 30%;
+        left: 54%;
+        height: 80%;
+        width: 50%
+    }
+    .info__button {
+        justify-content: center;
+    }
+    .info__title.info__title--quote {
+        margin: 0 0;
+        padding-bottom: 20px;
+    }
+    .home .achievement {
+        top: 48%;
+        width: 55%;
+    }
+    .achievement--box ul li {
+        max-width: 250px;
+        height: 70px;
+        padding: 5px 5px 5px 5px;
+        margin-bottom: 10px;
+        margin-right: 10px;
+        -webkit-border-radius: 2px;
+        -moz-border-radius: 2px;
+        border-radius: 2px;
+    }
+    .achievement--box .achievement__description {
+        margin-top: 0px;
+    }
+    .intro__wrap {
+        padding: 30px 7.5%;
+        flex-direction: column;
+    }
+    .info.intro {
+        width: 100%;
+        height: auto;
+        margin-right: 20px;
+    }
+    .intro__video {
+        max-width: 100%;
+    }
+    .section.service {
+        padding-top: 30px;
+        padding-bottom: 30px;
+    }
+    .service__wrap+.service__wrap {
+        margin-top: 30px;
+    }
+    .service__title {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    .service__img {
+        height: 150px;
+    }
+    .service__link {
+        padding: 8px 8px;
+    }
+    .method {
+        height: 80%;
+        position: unset;
+        width: 100%
+    }
+    .method__item {
+        position: relative;
+    }
+    .method__img {
+        width: 45px;
+        height: 45px;
+    }
+    #method_zalopay {
+        top: 30px;
+    }
+    #method_mastercard {
+        top: 83px;
+        left: 10%;
+    }
+    #method_va {
+        top: 10px;
+    }
+    #method_momo {
+        top: -38px;
+        left: 74%;
+    }
+    #method_is {
+        top: -5px;
+        left: 60%;
+    }
+    #method_napas {
+        top: -34px;
+        left: 28.13%;
+    }
+    #method_visa {
+        top: 4.5px;
+        left: 24.63%;
+    }
+    #method_jcb {
+        top: -67px;
+        left: 72%;
+    }
+    .news__list {
+        margin-bottom: 15px;
+    }
+    .news__summary {
+        min-height: 50px;
+    }
+    .news__more {
+        padding: 10px;
+        margin-top: 15px;
+    }
+    .pagination {
+        margin-bottom: 25px;
+    }
+    .pagination__link {
+        width: 20px;
+        height: 20px;
+    }
+    .pagination__item {
+        margin: 0 1;
+    }
+    /* ==============================Homepage ends============================== */
+    /* ==============================About us and partners============================== */
+    .partner.banner__content {
+        padding-top: 80%;
+    }
+    .partner.banner__content .banner__info {
+        width: 80%;
+        max-width: 80%;
+        top: 50%;
+    }
+    .partner__gallery .info__title {
+        padding-top: 30px;
+    }
+    .partner__gallery .info__content {
+        padding-bottom: 30px;
+    }
+    .achievement.achievement--box {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .goal__vision {
+        padding: 10px 10px;
+    }
+    .goal__illustration {
+        padding-top: 100%;
+    }
+    .timeline {
+        padding-left: 30px;
+        padding-right: 30px;
+        height: 1200px;
+    }
+    .timeline__list {
+        flex-direction: column;
+    }
+    .timeline__item:nth-child(odd) .timeline__info {
+        top: 25%;
+    }
+    .timeline__item:nth-child(even) .timeline__info {
+        top: 25%
+    }
+    .timeline__item:before {
+        width: 50px;
+        height: 50px;
+    }
+    .timeline::after {
+        display: none;
+    }
+    .timeline__info {
+        --delay-time: 0ms;
+        animation-name: slide-in-bottom;
+        padding-left: 60px;
+    }
+    .intro__slider.owl-carousel .owl-nav .owl-prev,
+    .intro__slider.owl-carousel .owl-nav .owl-next {
+        width: 30px;
+        height: 30px;
+    }
+    .intro__slider.owl-carousel .owl-nav .owl-prev,
+    .intro__slider.owl-carousel .owl-nav .owl-next {
+        font-size: 20px;
+    }
+    .partner__logo {
+        height: 50px;
+    }
+    /* ==============================About us end============================== */
+    /* ==============================MGP============================== */
+    .megapay.banner__content {
+        padding-top: 120%;
+    }
+    .megapay.banner__content .banner__info {
+        width: 80%;
+        max-width: 80%;
+        top: 20%;
+        left: 10%;
+    }
+    .megapay.banner__content .decoration__list .decoration__item .decoration__staff {
+        right: 2%;
+        display: none;
+    }
+    .info__content {
+        margin-top: 10px;
+    }
+    .megapay .feature__title {
+        margin-top: 10%;
+    }
+    .megapay .feature__title:before,
+    .megapay .feature__title:after {
+        width: 30px;
+        height: 30px;
+    }
+    .megapay.feature {
+        background: none;
+        min-height: 830px;
+    }
+    .megapay .feature__list--left {
+        padding-left: 0;
+    }
+    .megapay .feature__heading {
+        margin-bottom: 20px;
+    }
+    .megapay .feature__sub-title {
+        margin-bottom: 0px;
+    }
+    .megapay .feature__item:first-child {
+        margin-top: 20px;
+    }
+    .megapay .feature__item {
+        min-height: 80px;
+    }
+    .megapay .feature__name {
+        margin-bottom: 10px;
+    }
+    .megapay .feature__illustration img {
+        display: none;
+    }
+    .megapay.advantage--with-bg {
+        padding: 5% 10% 5% 10%;
+    }
+    .megapay.advantage--with-bg img {
+        position: unset;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+        margin-top: 20px;
+    }
+    .section.partner {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    /* ==============================MGP ends============================== */
+    /* ==============================Firmbanking============================== */
+    .firmbanking.banner__content {
+        padding-top: 120%;
+    }
+    .firmbanking.banner__content .banner__info {
+        max-width: 80%;
+        top: 20%;
+        left: 10%;
+    }
+    .firmbanking.general {
+        padding-top: 0px;
+        padding-bottom: 20px;
+    }
+    .firmbaking.general {
+        padding-top: 30px;
+    }
+    .firmbaking.general.general__content.info.info__title {
+        padding-top: 0px;
+    }
+    .firmbanking.general .general__img {
+        display: none;
+    }
+    .firmbanking.definition {
+        padding: 30px 0 56px;
+    }
+    .general__content--vertical .info {
+        max-width: 90%;
+    }
+    .general__content--vertical .general__img {
+        display: none;
+    }
+    .general__content.general__content--vertical p {
+        margin-top: 10px;
+    }
+    .define {
+        padding-top: 43%;
+    }
+    .define__item {
+        /* min-width: 50px; */
+        /* max-height: 50px; */
+        padding: 5px 5px;
+        max-width: 70px;
+        top: 46.07%;
+    }
+    .define__item:nth-child(1) {
+        left: 19%;
+    }
+    .define__item:nth-child(3) {
+        left: 63.8%;
+    }
+    .define__item img {
+        max-width: 36%;
+    }
+    .define__title {
+        margin: 5px auto 5px auto;
+    }
+    .define__addition {
+        max-width: 80%;
+    }
+    .order__list--dot {
+        max-width: 100%;
+    }
+    .order__list--dot .order__item {
+        margin-top: 5px;
+        padding-bottom: 5px;
+    }
+    .firmbanking .advantage {
+        height: 200px;
+    }
+    .firmbanking .advantage__list {
+        margin-top: 20px;
+    }
+    .firmbanking .owl-carousel .owl-nav button {
+        min-width: 30px;
+        height: 30px;
+    }
+    .firmbanking .owl-carousel .owl-item p {
+        padding: 5px 5px 0 5px;
+        height: 100px;
+    }
+   
+    .firmbanking.field {
+        background: none;
+    }
+    .addition--b-r::before {
+        transform: translate(-3%, 60px);
+    }
+    .order__list--bar .order__item {
+        margin-bottom: 5px;
+        width: 100%;
+    }
+    .order__list--bar .order__item::before {
+        min-width: 30px;
+        height: 30px;
+    }
+    .order__item:before {
+        margin-right: 10px;
+    }
+    .firmbanking.addition .addition__content {
+        margin-top: 30px;
+    }
+    .addition__content img {
+        display: none;
+    }
+    /* ==============================Firmbanking============================== */
+    /* ==============================Dich vu deposit code============================== */
+    .deposit.banner__content {
+        padding-top: 100%;
+    }
+    .deposit.banner__content .banner__info {
+        max-width: 80%;
+        top: 20%;
+        left: 10%;
+    }
+    .deposit.general {
+        padding-top: 10px;
+    }
+    .deposit .general__content {
+        margin-right: auto;
+    }
+    .general__img {
+        margin-top: 20px;
+    }
+    .general__img::before {
+        display: none;
+    }
+    .general__content p {
+        margin-bottom: 5px;
+    }
+    .general__content .info {
+        margin-right: auto;
+    }
+    .general__content .info__content {
+        flex-direction: column;
+    }
+    .order__item {
+        width: 250px;
+    }
+    .deposit.procedure .order__list--bg .order__item {
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .deposit.procedure {
+        padding: 20px 8%;
+    }
+    .unorder__list {
+       margin-top: 20px;
+        padding: 0px;
+    }
+    .unorder__list--horizontal .unorder__item {
+        max-width: 40%;
+    }
+    .order__list--bg {
+        flex-direction: column;
+    }
+    .order__list--bg .order__item::after {
+        width: 80px;
+        border-bottom: 2px solid #262626;
+        order: 1;
+        margin-bottom: 5px;
+    }
+    .deposit.benefit {
+        background: none;
+    }
+    .deposit .advantage__list {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .deposit.advantage .info__content {
+        margin-top: 15%;
+    }
+    .deposit .advantage__item:first-child,
+    .deposit .advantage__item:nth-last-child(2) {
+        padding-left: 0;
+    }
+    .deposit .advantage__item:first-child+.advantage__item,
+    .deposit .advantage__item:last-child {
+        padding-right: 0;
+    }
+    .deposit .advantage__item:nth-last-child(2) {
+        margin-bottom: 10px;
+    }
+    .deposit.advantage {
+        height: 350px;
+        padding: 5% 3%;
+    }
+    .deposit .advantage__item {
+        max-width: 100%;
+        margin-bottom: 10px;
+    }
+    .deposit .advantage__img {
+        max-width: 80px;
+        height: 80px;
+    }
+    .deposit .advantage__info p {
+        padding: 0 15px;
+    }
+    .order__list--img .order__wrap {
+        padding-top: 115px;
+    }
+    .order__list--img {
+        padding-top: 0px;
+    }
+    .order__list--img p {
+        top: 12%;
+        width: 85%;
+    }
+    .order__list--img .order__img {
+        max-width: 50px;
+        height: 50px;
+        border: 3px solid #9D090F;
+    }
+    .deposit.collection {
+        padding-top: 0;
+    }
+    .collection__list {
+        margin-top: 30px;
+    }
+    .collection__item {
+        padding: 0 0 10px 0;
+    }
+    .collection__img {
+        min-width: 70px;
+        min-height: 70px;
+    }
+    .collection__title {
+        margin-top: 10px;
+    }
+    .collection__title+.collection__note {
+        margin-top: 5px;
+    }
+    .deposit.addition {
+        padding-left: 10%;
+        padding-right: 10%;
+        margin-bottom: 20px;
+    }
+    .addition__content {
+        margin-top: 20px;
+    }
+    /* ==============================Dich vu deposit code ends============================== */
+    /* ==============================Dich vu epaypos============================== */
+    .epaypos.banner__content {
+        padding-top: 110%;
+    }
+    .epaypos.banner__content .banner__info {
+        max-width: 80%;
+        top: 20%;
+        left: 10%;
+    }
+    .epaypos.advantage {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .epaypos__wrap {
+        padding: 0 10%;
+    }
+    .unorder__list--circle .unorder__item+.unorder__item {
+        margin-top: 20px;
+    }
+    .unorder__list--circle .unorder__item:first-child {
+        margin-top: 20px;
+    }
+    .unorder__list--circle .unorder__item::before {
+        min-width: 8px;
+        height: 8px;
+    }
+    .unorder__item::before {
+        margin-right: 8px;
+    }
+    .unorder__list--circle .unorder__item p {
+        max-width: 80%;
+    }
+    .unorder__title {
+        margin-top: 30px;
+    }
+    .unorder__list--img .unorder__wrap {
+        min-width: 120px;
+        height: 120px;
+    }
+    .unorder__list--img {
+        flex-direction: column;
+    }
+    .unorder__list--img .unorder__item {
+        flex: 1 1 20px;
+        -webkit-flex: 1 1 20px;
+        -moz-flex: 1 1 20px;
+        -ms-flex: 1 1 20px;
+        padding: 15px 15px;
+    }
+    .unorder__list--img .unorder__item::before {
+        display: none;
+    }
+    .unorder__list--img .unorder__item p {
+        max-width: 70px;
+    }
+    .support__info {
+        height: 800px;
+        flex-direction: column;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+    .support__summary {
+        padding-top: 20px;
+    }
+    .support__summary+.support__summary {
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    .support__img {
+        max-height: 50%;
+    }
+    .addition::before {
+        width: 200%;
+        height: 95%;
+        margin-right: auto;
+        margin-left: auto;
+    }
+    /*.addition--t-r::before {
+        transform: translate(-10%, 18%);
+    }*/
+    .epaypos.addition .info {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .addition__title {
+        margin-bottom: 20px;
+    }
+    .unorder__list--box .unorder__item {
+        min-width: 90px;
+        height: 90px;
+        padding: 5px 5px 0 5px;
+    }
+    .unorder__list--box .unorder__item+.unorder__item {
+        margin-left: 5px;
+    }
+    .unorder__list--box .unorder__item p {
+        max-width: 80px;
+        margin-top: 5px;
+    }
+    /* ==============================Dich vu epaypos ends============================== */
+    /* ==============================Thu ho so============================== */
+    .document.banner__content {
+        padding-top: 80%;
+    }
+    .document.banner__content .banner__info {
+        max-width: 80%;
+        top: 35%;
+        left: 10%;
+    }
+
+    .document.feature {
+        padding: 30px 10%;
+    }
+    .document .info+.info {
+        margin-top: 30px;
+    }
+
+    .document.feature .feature__list {
+        flex-direction: column;
+        max-width: 80%;
+    }
+    
+    .order__list--square {
+        flex-direction: column;
+    }
+    .order__list--box {
+        flex-direction: column;
+    }
+    .order__list--box .order__item {
+        max-width: 100%;
+        height: 150px;
+        padding: 0 8px;
+    }
+    .order__list--box .order__item+.order__item {
+        margin-left: 5px;
+    }
+    .order__list--box .order__item::before {
+        margin-bottom: 8px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .order__list--square .order__item::before {
+        padding: 10px 10px;
+    }
+
+    .document.procedure {
+        padding: 30px 10%;
+    }
+    .document.procedure .order__item {
+        min-width: 300x;
+    }
+    .document .partner__list img {
+        max-height: 90px;
+        max-width: 90px;
+    }
+    .order__list--square p {
+        margin-top: 10px;
+    }
+    section.document.partner .info--center{
+        margin-top: 30px;
+    }
+    .document .partner__list {
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .document .partner__list img+img {
+        margin-left: 10px;
+    }
+    /* ==============================Thu ho so ends============================== */
+    
+    /* ==============================MC MD============================== */
+    .mc-md.banner__content {
+        padding-top: 120%;
+    }
+    .mc-md.banner__content .banner__info {
+        max-width: 80%;
+        top: 15%;
+        left: 10%;
+    }
+    .mc-md.banner__content .banner__info {
+        width: 80%;
+    }
+    
+    .mc.advantage .advantage__item {
+        margin-left: 20px;
+        margin-right: 20px;
+        height: 150px;
+    }
+    .mc .advantage__item p {
+        top: 80%
+    }
+    .md.introduction {
+        padding-top: 150%;
+    }
+    .md__info {
+        max-width: 80%;
+        top: 20px;
+        left: 30px;
+
+    }
+
+    .mc.procedure,
+    .md.md.procedure {
+        display: none;
+    }
+
+    .collection-address .info__content {
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .collection-address .box {
+        height: 35px;
+    }
+    .collection-address .box+.box {
+        margin-left: 10px;
+    }
+    .order__list--parallel .order__info {
+        padding: 35px 20px 15px 20px;
+    }
+    /* ==============================MC MD ends============================== */
+
+    /* ==============================News============================== */
+    .news.banner__content {
+        padding-top: 80%;
+    }
+    .news.banner__content .banner__info {
+        max-width: 80%;
+        top: 30%;
+        left: 10%;
+    }
+    .news__heading {
+        margin-top: 30px;
+        max-width: 80%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .news__illustration .info__title {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .news__title.news__title--primary {
+        display: none;
+    }
+    .news__list--vertical {
+        width: 100%;
+    }
+    .news__item {
+        flex-direction: column;
+    }
+    .news__content {
+        order: 2;
+    }
+    .news__gallery {
+        display: none;
+    }
+    .news__img {
+        order: 1;
+    }
+    .news__list--vertical .news__content::before {
+        display: none;
+    }
+    .news__list--vertical .news__date {
+        display: none;
+    }
+    .news__list--vertical .news__content {
+        margin-top: 20px;
+    }
+    /* ==============================News============================== */
+
+    /* ==============================Shipantoan============================== */
+    .shipantoan .shipantoan.banner__content{
+        padding-top: 280px;
+    }
+    .shipantoan.banner__content .banner__info {
+        top: 30%;
+        left: 0;
+        width: 80%;
+    }
+    .shipantoan.general {
+        padding: 20px 0;
+    }
+    .shipantoan.general .general__content {
+        width: 100%;
+        flex-direction: column;
+        margin-left: 5%;
+    }
+    .ship-address .info__title {
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    .ship-address .info__content {
+        margin-left: 5%;
+        margin-right: 5%;
+    }
+    .ship-address .box {
+        height: 58px;
+    }
+    .shipantoan.addition {
+        margin-bottom: 30px;
+    }
+    /* ==============================Shipantoan ends============================== */
+
+    /* ==============================Esan============================== */
+    .esan.banner__content {
+        padding-top: 650px;
+        display: flex;
+        flex-direction: column;
+    }
+    .esan.banner__content .decoration__list .decoration__item .hand-holding-phone {
+        height: 50%;
+    }
+    .esan.banner__content .banner__info {
+        top: 10%;
+        width: 80%;
+        left: 10%;
+    }
+
+    .esan.section {
+        padding-bottom: 30px;
+    }
+    .esan.feature .feature__item {
+        height: 130px;
+        padding: 10px 10px;
+        margin-top: 10px;
+    }
+    .esan .feature__icon.feature__icon--flag img{
+        width: auto;
+        height: 50px;
+    }
+    .megapay .info {
+        margin-bottom: 30px;
+    }
+    /* ==============================Esan ends============================== */
+
+    /* ==============================Ewallet============================== */
+
+    /* ==============================Ewallet ends============================== */
+
+    /* ==============================News details============================== */
+    .info__more.info__more--borderless {
+        display: none;
+    }
+    .blog {
+        overflow: visible;
+    }
+    .blog>.share .share__item {
+        margin-top: 23px;
+    }
+    .blog .share {
+        position: absolute;
+        left: -8%;
+        margin-bottom: 30px;
+    }
+    .blog__suggest {
+        margin-top: 60px;
+    }
+
+    .blog h2 {
+        max-width: 100%;
+        margin-left: 0;
+    }
+    .blog h3 {
+        margin-top: 30px;
+    }
+    .blog .info__blog {
+        max-width: 100%;
+    }
+    .blog .info img {
+        margin: 20px auto;
+    }
+    .news__info {
+        padding: 0 0;
+    }
+    .news__old .pagination {
+        margin-right: 0;
+    }
+    /* ==============================News details end============================== */
+
+    /* ==============================Contact============================== */
+    .contact.banner__content {
+        padding-top: 80%;
+    }
+    .contact.banner__content .banner__info {
+        max-width: 80%;
+        top: 60%;
+    }
+    .contact__title {
+        margin-bottom: 20px;
+        margin-top: 20px;
+    }
+    .section.contact .info__title{
+        margin-top: 30px;
+        margin-bottom: 30px;
+    }
+    .contact__info h3+.contact__info p{
+        margin-top: 30px;
+    }
+    .custom-form {
+        margin-top: 10px;
+        padding: 15px 15px;
+        box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+        -webkit-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+        -moz-box-shadow: 0px 0px 0px rgba(0, 0, 0, 0.25);
+    }
+    /* ==============================Contact ends============================== */
+
+    /* ==============================QA============================== */
+    .helper.banner__content {
+        padding-top: 80%;
+    }
+    .helper.banner__content .banner__info {
+        max-width: 80%;
+    }
+    .question {
+        flex-direction: column;
+        max-width: 80%;
+    }
+    .question__heading {
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    .question__answer .collapse {}
+    .collapse__icon {
+        width: 10px;
+        height: 10px;
+    }
+    .question .question__answer .order__item {
+        width: 100%;
+    }
+    .collapse__toggle {
+        max-width: 90%;
+    }
+    /* ==============================QA ends============================== */
+
+    /* ==============================Hiring============================== */
+    .tab__list--horizontal {
+        width: 100%;
+        flex-direction: column;
+    }
+    .tab__list--horizontal .tab__item {
+        width: 80%;
+    }
+    .tab__list--horizontal .tab__link {
+        height: 80px;
+        width: 100%;
+        -webkit-flex-direction: row;
+        -moz-flex-direction: row;
+        flex-direction: row;
+        justify-content: unset;
+        padding: 10px 15px;
+    }
+    .tab__icon {
+        width: 50px;
+        height: 50px;
+        margin-right: 15px;
+    }
+    .hiring__content {
+        padding: 10%;
+        margin-top: 30px;
+    }
+    /* ==============================Hiring ends============================== */
+
+    /* ==============================Footer============================== */
+    /* ==============================Footer============================== */
+    /* ==============================Footer============================== */
+    .footer__logo {
+        margin-bottom: 10px;
+    }
+    .footer__logotittle {
+        max-width: 250px;
+        text-align: center;
+        margin-bottom: 20px;
+        margin-top: 10px;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .footer__logo img {
+        width: 65%;
+        margin: auto;
+    }
+    .footer__heading {
+        margin-top: 45px;
+    }
+    .footer__contact {
+        flex-direction: column;
+    }
+    .footer__copyright {
+        flex-direction: column;
+        padding: 10px;
+    }
+    .footer__copyright img+img {
+        margin-left: 10px;
+    }
+    .footer__copyright .certificate {
+        display: flex;
+    }
+    /* ==============================Footer ends============================== */
+}
+
+@media screen and (max-width:1023px) { 
+/* ===========================Header============================== */
+.header__pc {
+    padding-top: 16px;
+    padding-bottom: 16px;
+}
+.header__logo {
+    max-height: 10%;
+    max-width: 20%;
+}
+.header__logo picture {
+}
+.header__navbar {
+    flex: 1;
+}
+.header__form {
+    flex: 1;
+}
+.header__form input {
+    width: 100%;
+    padding: 8px 10px 8px 30px;
+}
+.header__form {
+    margin-left: 10px;
+    flex: 1;
+}
+.header__language {
+    margin-left: 10px;
+}
+.header__toggle {
+    display: block;
+}
+/* ---------------------------Navbar----------------------------------- */
+.navbar {
+    display: block;
+    position: absolute;
+    width: 100%;
+    left: 0;
+    right: 0;
+    top: 100%;
+    background: var(--white-color);
+    overflow: hidden;
+}
+.navbar__list {
+    flex-direction: column;
+}
+.navbar__item {
+    border-bottom: 1px solid var(--label-color);
+}
+.navbar__item+.navbar__item {
+    margin-left: 0;
+}
+.navbar__link {
+    padding: 10px 5%;
+}
+.navbar__menu.navbar__menu--category .navbar__link {
+    padding: 10px 0;
+}
+.navbar__link i {
+    display: block;
+}
+.navbar__menu {
+    position: unset;
+    transform: unset;
+}
+.navbar__menu--category {
+    flex-direction: column;
+}
+.menu:nth-child(even) {
+    padding-left: 0;
+}
+.navbar__menu--category .menu:first-child {
+    padding-top: 0px;
+}
+.navbar__menu--category .menu:first-child+.menu {
+    padding-top: 26px;
+}
+.navbar__item .navbar__link::after,
+.navbar__item .navbar__link--menu::after {
+    left: 0;
+    border-width: 1px;
+}
+.navbar__item.show .navbar__link::after,
+.navbar__item.show .navbar__link--menu::after {
+    transform: unset;
+}
+/* ---------------------------Navbar ends------------------------------ */
+/* ===========================Header ends============================== */
+    
+
+
+
+
+
+}
